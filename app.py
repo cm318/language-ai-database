@@ -41,7 +41,7 @@ def detail(uid):
         for _,x in T['practice'][T['practice'].university_id==uid].iterrows(): st.markdown(f"**{x['name']}｜{x.practice_type}**  \n{x.content}  \n*时长：{x.duration}；评价：{x.assessment}*")
     with tabs[5]:
         es=T['evaluation'][T['evaluation'].university_id==uid]
-        if es.empty: st.info('当前案例材料未提供可统一结构化的评价机制信息，数据库不作推断补录。')
+        if es.empty: st.info('现有资料未提供可统一结构化的评价机制信息，数据库不作推断补录。')
         for _,x in es.iterrows(): st.markdown(f"**{x.evaluation_type}**  \n{x.method}。{x.criteria}  \n成果：{x.output}")
     with tabs[6]:
         for _,x in T['organizations'][T['organizations'].university_id==uid].iterrows(): st.markdown(f"**{x['name']}**　`{x.org_type}`  \n{x.description}")
@@ -53,7 +53,7 @@ def home():
     st.markdown("<div class='sec'>数据库成果概览</div>",unsafe_allow_html=True)
     a,b,c,d,e=st.columns(5)
     for col,label,val in [(a,'已结构化高校',len(U)),(b,'培养项目/路径',len(P)),(c,'课程/研究主题',len(T['courses'])),(d,'师资记录',len(T['faculty'])),(e,'组织/科研平台',len(T['organizations']))]: col.metric(label,val)
-    st.caption('注：当前专家验收版先纳入4所已结构化示范高校；后续40余所案例可按同一数据标准持续追加，页面统计自动更新。')
+    st.caption('注：本在线版本展示当前已完成结构化入库的高校案例；各项统计均由数据库实时生成，并随后续数据更新自动同步。')
     st.markdown("<div class='sec'>高校检索与比较</div><div class='sub'>无需了解数据库字段。先选择高校，后续项目和数据对象将自动联动。</div>",unsafe_allow_html=True)
     mode=st.radio('功能', ['高校检索','高校比较'],horizontal=True,label_visibility='collapsed')
     if mode=='高校检索':
@@ -73,7 +73,7 @@ def home():
                 uid=U[U.university_name_cn==n].university_id.iloc[0]
                 rows.append({'高校':n,'国家/地区':U[U.university_id==uid].iloc[0].country,'培养项目/路径':len(P[P.university_id==uid]),'课程/研究主题':len(T['courses'][T['courses'].university_id==uid]),'师资':len(T['faculty'][T['faculty'].university_id==uid]),'实践':len(T['practice'][T['practice'].university_id==uid]),'评价':len(T['evaluation'][T['evaluation'].university_id==uid]),'组织平台':len(T['organizations'][T['organizations'].university_id==uid])})
             st.dataframe(pd.DataFrame(rows),use_container_width=True,hide_index=True)
-            st.caption('数量比较反映当前案例材料的结构化记录量，不代表高校办学水平或培养质量排名。')
+            st.caption('数量比较仅反映数据库中已结构化记录的数量，不代表高校办学水平或培养质量排名。')
     st.markdown("<div class='sec'>六维分析框架</div>",unsafe_allow_html=True)
     dims=[('01','培养目标','人才定位、知识—能力—素养'),('02','课程体系','语言、AI与交叉课程组织'),('03','师资配置','跨院系、跨学科师资结构'),('04','实践环节','科研、项目、实习与产学合作'),('05','评价机制','课程、项目、论文与成果评价'),('06','组织架构','研究中心、实验室与协同平台')]
     cols=st.columns(3)
@@ -95,7 +95,7 @@ def home():
         with cols[i%4]:
             st.markdown(f"<div class='card'><div class='feature'>{u.university_name_cn}</div><p class='sub'>{u.university_name_en}<br>{u.country} · {u.region}</p></div>",unsafe_allow_html=True)
             if st.button('查看详情',key='go'+u.university_id,use_container_width=True): st.session_state.page='detail';st.session_state.uid=u.university_id;st.rerun()
-    st.divider(); st.caption('数据说明｜本系统为项目成果的结构化展示与检索平台。数据来源于项目组整理的高校案例材料；对原材料未明确提供的信息不作主观补录。')
+    st.divider(); st.caption('数据说明｜本系统对已采集的高校公开资料进行结构化整理与检索展示；对资料中未明确提供的信息不作主观推断或补录。')
 
 if 'page' not in st.session_state: st.session_state.page='home'
 if st.session_state.page=='detail': detail(st.session_state.get('uid','U001'))
