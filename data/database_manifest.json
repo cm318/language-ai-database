@@ -1,0 +1,10 @@
+{
+  "format": "sqlite3",
+  "database_file": "language_ai_cases.db",
+  "compressed_file": "language_ai_cases.db.gz",
+  "compression": "gzip",
+  "bytes": 141692928,
+  "sha256": "256d577bd7f699e765bc0e9bff42fbc3d6c2627959d620ef3871320dbe390807",
+  "compressed_bytes": 18934737,
+  "compressed_sha256": "5b13a32d274a05420a4f0a247602473a02cec108592e3e87258ba6a24697811f"
+}
