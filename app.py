@@ -17,7 +17,7 @@ LOCAL_DB = BASE / "data" / "language_ai_cases.db"
 DB_ARCHIVE = BASE / "data" / "language_ai_cases.db.gz"
 DB_MANIFEST = BASE / "data" / "database_manifest.json"
 XLSX = BASE / "data" / "language_ai_cases.xlsx"
-PAGES = ["数据库首页", "高校详情", "科研与学生发展", "来源与证据", "附件下载"]
+PAGES = ["数据库首页", "高校详情"]
 DIMENSIONS = [
     ("01", "培养目标", "人才定位、知识—能力—素养"),
     ("02", "课程体系", "语言、人工智能与交叉课程组织"),
@@ -154,35 +154,82 @@ st.set_page_config(
 
 CSS = """
 <style>
-:root{--ink:#111111;--paper:#ffffff;--signal:#ffff00;--muted:#646464;--line:#111111;--soft:#f3f3ef}
-.stApp{background:var(--paper);color:var(--ink)}
+:root{
+  color-scheme:dark;
+  --navy-900:#00205b;--navy-900:oklch(0.2672 0.1125 260.562);
+  --navy-800:#102244;--navy-800:oklch(0.2577 0.0683 261.809);
+  --navy-950:#071a3d;--navy-950:oklch(0.2263 0.0719 261.116);
+  --blue-700:#173765;--blue-700:oklch(0.3395 0.0893 257.817);
+  --blue-300:#8cb4e7;--blue-300:oklch(0.7598 0.0856 254.781);
+  --blue-100:#c9d9f2;--blue-100:oklch(0.8811 0.0387 259.287);
+  --ice-50:#f4f8ff;--ice-50:oklch(0.9781 0.0103 261.789);
+  --page:var(--navy-900);--surface:var(--navy-800);--surface-deep:var(--navy-950);
+  --text:var(--ice-50);--text-secondary:var(--blue-100);--accent:var(--blue-300);
+  --line:rgba(140,180,231,.28);--line-strong:rgba(140,180,231,.52);
+  --surface-glass:rgba(16,34,68,.82);--accent-soft:rgba(140,180,231,.12);
+  --shadow:0 22px 60px rgba(0,10,35,.26);--radius-lg:22px;--radius-md:14px;
+}
+.stApp{
+  background:
+    radial-gradient(circle at 88% 2%,rgba(140,180,231,.14),transparent 31rem),
+    linear-gradient(180deg,rgba(0,32,91,.98),rgba(0,32,91,1) 38rem);
+  color:var(--text);
+}
+[data-testid="stHeader"]{background:rgba(0,32,91,.82);backdrop-filter:blur(14px)}
 .block-container{max-width:1480px;padding:4rem 2.4rem 4rem}
-html,body,[class*="css"]{font-family:"Helvetica Neue","PingFang SC","Microsoft YaHei","Noto Sans CJK SC",sans-serif}
-h1,h2,h3,.serif{font-family:"Songti SC","STSong","SimSun","Noto Serif CJK SC",serif;letter-spacing:-.025em}
-h1{font-size:2.7rem}h2{font-size:2rem;margin-top:1.5rem}h3{font-size:1.35rem}
-a{color:var(--ink);text-decoration-thickness:1px;text-underline-offset:3px}
-.hero{display:grid;grid-template-columns:minmax(0,3fr) minmax(220px,1fr);border:1.5px solid var(--line);margin:1rem 0 2rem}
-.hero-copy{padding:3rem 3.2rem}.hero h1{font-size:clamp(2.3rem,4.3vw,4.6rem);line-height:1.08;margin:.8rem 0 1.4rem;max-width:1000px}
-.hero p{font-size:1.02rem;line-height:1.85;max-width:900px;margin:0}.hero-number{background:var(--signal);border-left:1.5px solid var(--line);padding:2rem;display:flex;flex-direction:column;justify-content:flex-end}
-.hero-number strong{font-family:"Helvetica Neue",sans-serif;font-size:clamp(4.5rem,8vw,8rem);line-height:.9;letter-spacing:-.07em}.hero-number span{font-size:1.1rem;margin-top:1rem}
-.kicker{font-size:.75rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase}.rule{height:1.5px;background:var(--line);margin:1rem 0}
-.school-head{border-top:1.5px solid var(--line);border-bottom:1.5px solid var(--line);padding:1.8rem 0;margin:1rem 0}.school-head h1{margin:.3rem 0}.school-head p{color:var(--muted);margin:0}
-.flat{border:1.5px solid var(--line);padding:1.2rem;height:100%;transition:background .2s ease}.flat:hover{background:#ffff001f}.flat .no{font-size:.72rem;letter-spacing:.12em;color:var(--muted)}.flat h3{margin:.65rem 0}.flat p{color:var(--muted);line-height:1.65;margin:0}
-.notice{border-left:1.5px solid var(--line);padding:.7rem 1rem;background:var(--soft);line-height:1.7}.yellow{background:var(--signal);padding:0 .18em}
-.compare{width:100%;border-collapse:collapse;margin:.8rem 0 1.2rem}.compare th,.compare td{border:1.5px solid var(--line);padding:.8rem;text-align:left;vertical-align:top}.compare th{background:var(--signal)}.compare th:first-child{background:var(--paper);width:20%}.compare td:first-child{font-weight:650}
-.small{font-size:.82rem;color:var(--muted)}
-div[data-testid="stMetric"]{border:1.5px solid var(--line);border-radius:0;padding:1rem;background:var(--paper)}
-div[data-testid="stMetric"]:hover{background:#ffff001f}div[data-testid="stMetricLabel"]{color:var(--muted)}
-div[data-testid="stDataFrame"]{border:1.5px solid var(--line)}
-.stButton>button,.stDownloadButton>button{border:1.5px solid var(--line);border-radius:0;background:var(--paper);color:var(--ink);font-weight:650;min-height:2.8rem;box-shadow:none}
-.stButton>button:hover,.stDownloadButton>button:hover{background:var(--signal);color:var(--ink);border-color:var(--line)}
-.stButton>button[kind="primary"],.stDownloadButton>button[kind="primary"]{background:var(--signal);color:var(--ink)}
-.stButton>button:focus-visible,.stDownloadButton>button:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
-div[data-baseweb="input"],div[data-baseweb="select"]>div,div[data-baseweb="base-input"]{border-radius:0}
-.stTabs [data-baseweb="tab-list"]{gap:1.1rem;border-bottom:1.5px solid var(--line)}.stTabs [data-baseweb="tab"]{font-weight:600;padding-left:0;padding-right:0}
-.stTabs [aria-selected="true"]{background:linear-gradient(transparent 72%,var(--signal) 72%)}
+html,body,[class*="css"],.stApp{
+  font-family:"DM Sans",-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC",sans-serif;
+  font-size:16px;line-height:1.65;
+}
+h1,h2,h3,h4,.serif{font-family:inherit;color:var(--text);font-style:normal;letter-spacing:-.025em}
+h1{font-size:2.7rem;font-weight:700;line-height:1.18}h2{font-size:1.85rem;font-weight:680;margin-top:2.2rem;padding-bottom:.65rem;border-bottom:1px solid var(--line)}h3{font-size:1.25rem;font-weight:650;line-height:1.4}
+p,li{color:var(--text)}a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:4px;transition:color .18s ease,text-underline-offset .18s ease}a:hover{color:var(--text);text-underline-offset:6px}
+.hero{
+  display:grid;grid-template-columns:minmax(0,2.5fr) minmax(250px,.9fr);
+  margin:1.2rem 0 2.2rem;border:1px solid var(--line);border-radius:var(--radius-lg);
+  overflow:hidden;background:linear-gradient(135deg,rgba(16,34,68,.98),rgba(23,55,101,.72));box-shadow:var(--shadow)
+}
+.hero-copy{padding:3.2rem 3.4rem;align-self:center}.hero h1{font-size:clamp(2.35rem,4.2vw,4.5rem);line-height:1.09;letter-spacing:-.045em;margin:.9rem 0 1.5rem;max-width:1000px}
+.hero p{font-size:1.03rem;line-height:1.85;max-width:850px;margin:0;color:var(--text-secondary)}
+.hero-number{background:var(--accent);color:var(--navy-950);padding:2.2rem;display:flex;flex-direction:column;justify-content:flex-end;clip-path:polygon(12% 0,100% 0,100% 100%,0 100%)}
+.hero-number strong{font-family:inherit;font-size:clamp(5rem,8vw,8.4rem);font-weight:700;line-height:.88;letter-spacing:-.075em;color:var(--navy-950)}
+.hero-number span{font-size:1.03rem;font-weight:600;line-height:1.75;margin-top:1.25rem;color:var(--navy-950)}
+.kicker{font-size:.76rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}.rule{height:1px;background:var(--line);margin:1.6rem 0}
+.school-head{border:1px solid var(--line);border-radius:var(--radius-lg);padding:2rem 2.2rem;margin:1.2rem 0;background:linear-gradient(120deg,var(--surface-glass),rgba(23,55,101,.55));box-shadow:var(--shadow)}
+.school-head h1{margin:.45rem 0;font-size:clamp(2.1rem,4vw,3.7rem)}.school-head p{color:var(--text-secondary);margin:0;font-size:1.02rem}
+.flat{border-top:1px solid var(--line-strong);padding:1.15rem .2rem 1.25rem;height:100%;transition:background .18s ease,padding .18s ease}.flat:hover{background:var(--accent-soft);padding-left:.8rem;padding-right:.8rem}.flat .no{font-size:.74rem;font-weight:700;letter-spacing:.12em;color:var(--accent)}.flat h3{margin:.55rem 0}.flat p{color:var(--text-secondary);line-height:1.7;margin:0;font-size:.94rem}
+.notice{border:1px solid var(--line);border-radius:var(--radius-md);padding:1rem 1.15rem;background:var(--accent-soft);line-height:1.75;color:var(--text-secondary);margin:.8rem 0 1.2rem}.notice strong{color:var(--text)}.yellow{background:var(--accent);color:var(--navy-950);padding:0 .18em}
+.compare{width:100%;border-collapse:separate;border-spacing:0;margin:.8rem 0 1.2rem;background:var(--surface-glass);border:1px solid var(--line);border-radius:var(--radius-md);overflow:hidden}
+.compare th,.compare td{border-bottom:1px solid var(--line);padding:.85rem .9rem;text-align:left;vertical-align:top;color:var(--text)}.compare th{background:rgba(140,180,231,.15);color:var(--text);font-weight:650}.compare th:first-child{width:20%}.compare td:first-child{font-weight:650;color:var(--text-secondary)}.compare tr:last-child td{border-bottom:0}
+.small{font-size:.86rem;color:var(--text-secondary);line-height:1.75}
+div[data-testid="stMetric"]{border:1px solid var(--line);border-radius:var(--radius-md);padding:1.05rem 1.1rem;background:var(--surface-glass);box-shadow:0 10px 28px rgba(0,10,35,.14);transition:border-color .18s ease,transform .18s ease}
+div[data-testid="stMetric"]:hover{border-color:var(--line-strong);transform:translateY(-2px)}div[data-testid="stMetricLabel"]{color:var(--text-secondary)}div[data-testid="stMetricLabel"] p{color:var(--text-secondary);font-size:.88rem}div[data-testid="stMetricValue"]{color:var(--text);font-weight:700}
+div[data-testid="stDataFrame"]{border:1px solid var(--line);border-radius:var(--radius-md);background:var(--surface);box-shadow:0 12px 34px rgba(0,10,35,.16);max-width:100%}
+div[data-testid="stDataFrameResizable"]{border-radius:calc(var(--radius-md) - 1px);overflow:hidden}div[data-testid="stDataFrame"] .stElementToolbar{z-index:5}
+div[data-testid="stExpander"]{border:1px solid var(--line);border-radius:var(--radius-md);background:rgba(16,34,68,.62);overflow:hidden}div[data-testid="stExpander"] summary{color:var(--text)}
+.stButton>button,.stDownloadButton>button,.stFormSubmitButton>button{border:1px solid var(--line-strong);border-radius:999px;background:var(--surface);color:var(--text);font-weight:650;min-height:2.85rem;padding:.55rem 1.3rem;box-shadow:0 8px 22px rgba(0,10,35,.16);transition:background .18s ease,color .18s ease,border-color .18s ease,transform .18s ease}
+.stButton>button:hover,.stDownloadButton>button:hover,.stFormSubmitButton>button:hover{background:var(--accent);color:var(--navy-950);border-color:var(--accent);transform:translateY(-1px)}
+.stButton>button[kind="primary"],.stDownloadButton>button[kind="primary"],.stFormSubmitButton>button[kind="primary"]{background:var(--accent);color:var(--navy-950);border-color:var(--accent)}
+.stButton>button:focus-visible,.stDownloadButton>button:focus-visible,.stFormSubmitButton>button:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+div[data-baseweb="input"],div[data-baseweb="select"]>div,div[data-baseweb="base-input"],div[data-baseweb="textarea"]{border-radius:12px;background-color:var(--surface);border-color:var(--line-strong);color:var(--text)}
+input,textarea{color:var(--text)!important;-webkit-text-fill-color:var(--text)!important}input::placeholder,textarea::placeholder{color:var(--text-secondary)!important;opacity:.82;-webkit-text-fill-color:var(--text-secondary)!important}
+div[data-testid="stTextInput"] label p,div[data-testid="stSelectbox"] label p,div[data-testid="stMultiSelect"] label p{color:var(--text-secondary);font-weight:600}
+div[data-testid="stRadio"] div[role="radiogroup"]{gap:.35rem;width:fit-content;padding:.35rem;background:rgba(16,34,68,.72);border:1px solid var(--line);border-radius:999px}
+div[data-testid="stRadio"] div[role="radiogroup"] label{min-height:44px;padding:.48rem 1.15rem;border-radius:999px;transition:background .18s ease,color .18s ease}
+div[data-testid="stRadio"] div[role="radiogroup"] label:hover{background:var(--accent-soft)}
+div[data-testid="stRadio"] div[role="radiogroup"] label:has(input:checked){background:var(--accent)}
+div[data-testid="stRadio"] div[role="radiogroup"] label:has(input:checked) p{color:var(--navy-950);font-weight:700}
+.stTabs [data-baseweb="tab-list"]{gap:.35rem;border-bottom:1px solid var(--line);overflow-x:auto;scrollbar-width:thin}.stTabs [data-baseweb="tab"]{font-weight:600;padding:.7rem 1rem;border-radius:999px!important;color:var(--text-secondary);white-space:nowrap;transition:background .18s ease,color .18s ease}
+.stTabs [data-baseweb="tab"]:hover{background:var(--accent-soft);color:var(--text)}.stTabs [aria-selected="true"]{background:var(--accent)!important;color:var(--navy-950)!important}.stTabs [data-baseweb="tab-highlight"]{display:none}
+[data-testid="stCaptionContainer"],.stCaption{color:var(--text-secondary)!important}
 #MainMenu{visibility:hidden}footer{visibility:hidden}
-@media(max-width:760px){.block-container{padding:4rem 1rem 3rem}.hero{grid-template-columns:1fr}.hero-copy{padding:1.6rem}.hero-number{border-left:0;border-top:1.5px solid var(--line);padding:1.4rem}.hero-number strong{font-size:4.5rem}.compare{font-size:.82rem}.compare th,.compare td{padding:.5rem}}
+@media(max-width:760px){
+  .block-container{padding:4rem 1rem 3rem}.hero{grid-template-columns:1fr;border-radius:18px}.hero-copy{padding:1.7rem}.hero h1{font-size:clamp(2rem,8.2vw,2.6rem);line-height:1.16}
+  .hero-number{clip-path:none;border-top:1px solid var(--line);padding:1.5rem}.hero-number strong{font-size:4.8rem}.school-head{padding:1.5rem;border-radius:18px}
+  h2{font-size:1.55rem}.compare{display:block;overflow-x:auto;font-size:.84rem}.compare th,.compare td{padding:.6rem}.flat{padding-top:1rem}
+  div[data-testid="stRadio"] div[role="radiogroup"]{max-width:100%}.stTabs [data-baseweb="tab"]{padding:.65rem .8rem}
+}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important}}
 </style>
 """
 st.markdown(CSS, unsafe_allow_html=True)
@@ -322,30 +369,25 @@ def home():
     ]
     for col, (label, value) in zip(cols, metrics):
         col.metric(label, f"{value:,}")
-    st.markdown("<div class='notice'>全部结构化记录均可回查原文证据。机器结构化初稿不等于人工已核验；附件获准公开下载也不等于其来源已经成为官方已核验来源。记录数量只反映资料覆盖，不用于高校办学质量排名。</div>", unsafe_allow_html=True)
+    st.markdown("<div class='notice'>数据库底层保留结构化记录、原文证据与附件，专家展示页面聚焦培养模式与科研数据。机器结构化初稿不等于人工已核验；附件获准公开下载也不等于其来源已经成为官方已核验来源。记录数量只反映资料覆盖，不用于高校办学质量排名。</div>", unsafe_allow_html=True)
 
     st.markdown("## 高校检索")
-    c1, c2, c3 = st.columns([1.6, 1, 1])
+    c1, c2 = st.columns([2, 1])
     with c1:
-        term = st.text_input("检索中文名、英文名或别名", placeholder="例如：北京大学 / Peking")
+        term = st.text_input("高校名称", placeholder="输入中文高校名称，例如：北京大学")
     with c2:
         regions = sorted(x for x in U.region.dropna().unique() if str(x).strip())
         region = st.selectbox("区域", ["全部"] + regions)
-    with c3:
-        countries = sorted(x for x in U.country.dropna().unique() if str(x).strip())
-        country = st.selectbox("国家／地区", ["全部"] + countries)
     mask = pd.Series(True, index=U.index)
     if term.strip():
         needle = term.strip().lower()
-        searchable = U[["university_name_cn", "university_name_en", "name_aliases"]].fillna("").agg(" ".join, axis=1).str.lower()
+        searchable = U["university_name_cn"].fillna("").str.lower()
         mask &= searchable.str.contains(needle, regex=False)
     if region != "全部":
         mask &= U.region == region
-    if country != "全部":
-        mask &= U.country == country
     results = U[mask].merge(DIM[["university_id", "program_count", "courses_count", "research_projects_count", "research_outputs_count"]], on="university_id", how="left")
     st.caption(f"检索到 {len(results)} 所高校")
-    show_frame(results, ["university_name_cn", "university_name_en", "country", "region", "program_count", "courses_count", "research_projects_count", "research_outputs_count"], "没有符合当前条件的高校，请调整检索词或筛选条件。")
+    show_frame(results, ["university_name_cn", "region", "program_count", "courses_count", "research_projects_count", "research_outputs_count"], "没有符合当前条件的高校，请调整检索词或筛选条件。")
     if not results.empty:
         uid = st.selectbox("选择要打开的高校", results.university_id.tolist(), format_func=lambda x: NAME.get(x, x), key="home_uid")
         st.button("打开高校完整档案", type="primary", on_click=open_school, args=(uid,))
@@ -378,17 +420,17 @@ def home():
     with c1:
         st.markdown("### 高校区域分布")
         chart = U.assign(region=U.region.fillna("未注明")).groupby("region").size().rename("高校数").to_frame()
-        st.bar_chart(chart, color="#111111")
+        st.bar_chart(chart, color="#8cb4e7")
     with c2:
         st.markdown("### 培养层次／路径分布")
         levels = query(DB_STAMP, "SELECT coalesce(nullif(level,''),'未注明') AS level,count(*) AS n FROM programs GROUP BY coalesce(nullif(level,''),'未注明') ORDER BY n DESC")
         if levels.empty:
             st.info("当前没有培养项目／路径记录。")
         else:
-            st.bar_chart(levels.set_index("level"), color="#111111")
-    quality_columns = ["university_name_cn", "dimension_coverage_count", "evidence_coverage_percent", "official_verified_percent", "open_issue_count", "unprocessed_fragment_count", "quality_status"]
+            st.bar_chart(levels.set_index("level"), color="#8cb4e7")
+    quality_columns = ["university_name_cn", "dimension_coverage_count", "evidence_coverage_percent"]
     show_frame(QUALITY, quality_columns)
-    st.caption("六维覆盖、证据覆盖、官方已核验比例和待处理事项分别报告；未处理原文必须为 0。")
+    st.caption("六维覆盖与证据覆盖率分别报告；数量与覆盖指标不用于评价高校办学水平。")
 
 
 def course_rows(uid: str, program_id: str) -> pd.DataFrame:
@@ -411,7 +453,7 @@ def course_rows(uid: str, program_id: str) -> pd.DataFrame:
 
 
 def program_overview(programs: pd.DataFrame):
-    show_frame(programs, ["program_name_cn", "program_kind", "is_formal_degree", "level", "degree", "host_unit_text", "duration", "language_of_instruction"])
+    show_frame(programs, ["program_name_cn", "program_kind", "is_formal_degree", "level", "degree", "duration", "language_of_instruction"])
     for _, row in programs.iterrows():
         with st.expander(str(row.program_name_cn), expanded=len(programs) == 1):
             if pd.notna(row.positioning) and str(row.positioning).strip():
@@ -453,7 +495,7 @@ def detail():
 
     tabs = st.tabs([
         "学校概览", "培养目标", "课程体系", "师资配置", "实践环节", "评价机制",
-        "科研平台与相关机构", "科研项目", "科研成果", "学生发展", "来源与附件",
+        "科研平台与相关机构", "科研项目", "科研成果", "学生发展",
     ])
     with tabs[0]:
         st.markdown("### 培养项目／路径")
@@ -465,25 +507,24 @@ def detail():
             {"项目": "备注", "内容": u.notes},
         ])
         show_frame(info)
-        st.button("回查该校来源与原文证据", on_click=open_evidence, args=(uid,))
     with tabs[1]:
         frame = scope_filter(related("objectives", uid), selected_program)
-        show_frame(frame, ["dimension", "description", "scope_type", "review_status"])
+        show_frame(frame, ["dimension", "description"])
     with tabs[2]:
         show_frame(course_rows(uid, selected_program))
     with tabs[3]:
         frame = related("faculty", uid)
-        show_frame(frame, ["name", "title", "primary_unit_text", "research_direction", "homepage_url", "biography", "ai_tag", "language_tag", "interdisciplinary_tag", "review_status"])
+        show_frame(frame, ["name", "title", "primary_unit_text", "research_direction", "homepage_url", "biography", "ai_tag", "language_tag"])
         st.caption("教师与平台的多对多关系、个人主页和简介按原资料保留；未明确的单位归属不作推断。")
     with tabs[4]:
         frame = scope_filter(related("practice", uid), selected_program)
-        show_frame(frame, ["practice_type", "name", "duration", "credits", "credit_system", "content", "assessment", "scope_type", "review_status"])
+        show_frame(frame, ["practice_type", "name", "duration", "credits", "credit_system", "content", "assessment"])
     with tabs[5]:
         frame = scope_filter(related("evaluation", uid), selected_program)
-        show_frame(frame, ["evaluation_type", "method", "criteria", "weight", "output", "scope_type", "review_status"])
+        show_frame(frame, ["evaluation_type", "method", "criteria", "weight", "output"])
     with tabs[6]:
         frame = related("organizations", uid)
-        show_frame(frame, ["name", "name_en", "org_type", "research_directions", "description", "ai_related", "language_related", "interdisciplinary", "review_status"])
+        show_frame(frame, ["name", "name_en", "org_type", "research_directions", "description"])
     with tabs[7]:
         frame = related("research_projects", uid)
         show_frame(frame, ["project_name", "project_name_en", "project_type", "funder", "grant_number", "start_date", "end_date", "status", "description", "review_status"])
@@ -495,18 +536,6 @@ def detail():
         frame = scope_filter(related("student_development", uid), selected_program)
         show_frame(frame, ["record_type", "subject_type", "person_name_public", "student_status", "degree_level", "study_period", "content", "achievement", "destination_type", "destination_text", "destination_organization", "event_year", "review_status"])
         st.caption("仅展示公开资料中的学生科研、升学就业与校友信息，不补充私人联系方式或推测去向。")
-    with tabs[10]:
-        sources = related("sources", uid)
-        st.markdown("### 来源目录")
-        show_frame(sources, ["source_name", "source_type", "url", "publisher", "access_date", "is_official", "verification_status", "note"])
-        st.markdown("### 附件与下载")
-        attachments = query(DB_STAMP, "SELECT * FROM attachments WHERE university_id=? ORDER BY attachment_id", (uid,))
-        show_frame(attachments, ["file_name", "attachment_type", "file_size_bytes", "page_count", "download_permission", "extraction_status", "local_path"])
-        if not attachments.empty:
-            aid = st.selectbox("选择该校附件", attachments.attachment_id.tolist(), format_func=lambda x: attachments.loc[attachments.attachment_id == x, "file_name"].iloc[0], key=f"detail_att_{uid}")
-            row = attachments[attachments.attachment_id == aid].iloc[0]
-            attachment_download(row, f"detail_download_{aid}")
-        st.button("在来源与证据页继续回查", on_click=open_evidence, args=(uid,))
 
 
 def research():
@@ -725,14 +754,8 @@ def main():
     page = st.session_state.page
     if page == "数据库首页":
         home()
-    elif page == "高校详情":
-        detail()
-    elif page == "科研与学生发展":
-        research()
-    elif page == "来源与证据":
-        sources_page()
     else:
-        downloads()
+        detail()
     st.markdown("<div class='rule'></div><p class='small'>世界一流大学“语言＋人工智能”复合型人才培养模式研究｜依托山东大学<br>数据库、Excel 与网页使用同一 V2 SQLite 数据源；不推断缺失信息，不以记录数量替代质量判断。</p>", unsafe_allow_html=True)
 
 
