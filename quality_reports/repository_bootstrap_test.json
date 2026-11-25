@@ -1,0 +1,119 @@
+{
+  "test_time": "2026-11-25T00:04:49Z",
+  "repository": "/mnt/agents/output/language_ai_repo",
+  "url": "http://127.0.0.1:8512",
+  "compressed_only_before_start": true,
+  "app_sha256": "8138ee9a6314fda1083c2f489391248c34f6294c7060b8f9091c04193dfb6157",
+  "compressed_database_sha256": "5b13a32d274a05420a4f0a247602473a02cec108592e3e87258ba6a24697811f",
+  "expected_counts": {
+    "已登记高校": 56,
+    "培养项目／路径": 272,
+    "课程／研究主题": 2725,
+    "科研项目": 186,
+    "科研成果": 10091,
+    "证据关系": 83321
+  },
+  "observed_counts": {
+    "已登记高校": 56,
+    "培养项目／路径": 272,
+    "课程／研究主题": 2725,
+    "科研项目": 186,
+    "科研成果": 10091,
+    "证据关系": 83321
+  },
+  "pages_tested": [
+    "高校详情",
+    "科研与学生发展",
+    "来源与证据",
+    "附件下载"
+  ],
+  "checks": [
+    {
+      "name": "仓库副本首页六项指标",
+      "passed": true,
+      "detail": "{'已登记高校': 56, '培养项目／路径': 272, '课程／研究主题': 2725, '科研项目': 186, '科研成果': 10091, '证据关系': 83321}"
+    },
+    {
+      "name": "首页无应用异常",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "页面可达：高校详情",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "页面可达：科研与学生发展",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "页面可达：来源与证据",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "页面可达：附件下载",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "附件页汇总",
+      "passed": true,
+      "detail": "{'附件总数': 80, '允许下载': 80, 'DOCX': 56, 'PDF 总页数': 222}"
+    },
+    {
+      "name": "仓库附件真实下载",
+      "passed": true,
+      "detail": "巴黎萨克雷大学-2.0.docx"
+    },
+    {
+      "name": "仓库 Excel 真实下载",
+      "passed": true,
+      "detail": "language_ai_cases.xlsx"
+    },
+    {
+      "name": "无浏览器控制台异常",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "无页面脚本异常",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "无 HTTP 异常",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "服务日志无应用异常",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "运行后仓库仍无未压缩数据库",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "console_errors": [],
+  "page_errors": [],
+  "http_errors": [],
+  "status": "pass",
+  "attachment_metrics": {
+    "附件总数": 80,
+    "允许下载": 80,
+    "DOCX": 56,
+    "PDF 总页数": 222
+  },
+  "attachment_download": {
+    "file_name": "巴黎萨克雷大学-2.0.docx",
+    "bytes": 201566,
+    "sha256": "524703972d6ee1177c0741d77219fae8bcf4d2cfe16e8b343f4b02d28dcae661"
+  },
+  "server_errors": [],
+  "compressed_only_after_stop": true
+}

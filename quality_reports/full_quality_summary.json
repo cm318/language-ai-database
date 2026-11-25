@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "school_reports": 56,
+  "attachment_report": "quality_reports/80份附件完整性核验报告.md",
+  "full_acceptance_report": "quality_reports/全量结构化验收报告.md",
+  "user_revised_stage_report_preserved": true,
+  "user_revised_stage_report_sha256": "32ee297c542483a66faa65e817f9b8d1bcdac32fd074687c9440e567df0e5e12",
+  "database_sha256": "256d577bd7f699e765bc0e9bff42fbc3d6c2627959d620ef3871320dbe390807"
+}

@@ -1,0 +1,63 @@
+{
+  "verification_time": "2026-11-24T23:50:17.686Z",
+  "object_counts": {
+    "table": 21,
+    "view": 17,
+    "trigger": 44,
+    "index": 47,
+    "sqlite_autoindex": 22
+  },
+  "primary_key_not_null_failures": [],
+  "raw_fragment_disposition_issues": 0,
+  "structure_status": "pass",
+  "full_data": {
+    "extracted_universities": 56,
+    "validated_full_batches": 56,
+    "unprocessed_fragments": 0,
+    "allowed_attachments": 80,
+    "parsed_attachments": 80,
+    "pdf_pages": 222,
+    "business_records_without_evidence": 0
+  },
+  "full_data_status": "pass",
+  "compressed_database": {
+    "status": "pass",
+    "bytes": 18934737,
+    "sha256": "5b13a32d274a05420a4f0a247602473a02cec108592e3e87258ba6a24697811f",
+    "bootstrap_app_sha256": "8138ee9a6314fda1083c2f489391248c34f6294c7060b8f9091c04193dfb6157"
+  },
+  "table_counts": {
+    "universities": 56,
+    "programs": 272,
+    "objectives": 224,
+    "courses": 2725,
+    "faculty": 2083,
+    "practice": 265,
+    "evaluation": 410,
+    "organizations": 190,
+    "sources": 5036,
+    "program_course": 3273,
+    "faculty_organization": 1088,
+    "research_projects": 186,
+    "research_project_links": 156,
+    "research_outputs": 10091,
+    "research_output_links": 8806,
+    "student_development": 8766,
+    "attachments": 80,
+    "raw_fragments": 84046,
+    "source_links": 83321,
+    "review_issues": 38,
+    "import_batches": 116
+  },
+  "component_statuses": {
+    "v1_lossless_migration": "pass",
+    "excel_sqlite_consistency": "pass",
+    "browser_regression": "pass",
+    "database_constraints": "pass",
+    "attachment_integrity": "pass",
+    "full_data_gates": "pass",
+    "compressed_database_bootstrap": "pass"
+  },
+  "database_and_excel_unchanged_during_verification": true,
+  "status": "pass"
+}

@@ -1,0 +1,37 @@
+{
+  "status": "ready_for_user_upload",
+  "updated_at": "2026-11-25T07:45:30Z",
+  "local_acceptance": {
+    "status": "pass",
+    "final_acceptance_report": "quality_reports/final_acceptance_checks.json",
+    "university_count": 56,
+    "attachment_count": 80,
+    "school_quality_report_count": 56,
+    "compressed_only_bootstrap": "pass",
+    "repository_copy_bootstrap": "pass",
+    "repository_copy_check_count": 14,
+    "repository_copy_report": "quality_reports/repository_bootstrap_test.json"
+  },
+  "github": {
+    "target_repository": "https://github.com/cm318/language-ai-database",
+    "branch": "main",
+    "deployment_method": "github_web_three_upload_batches",
+    "push_status": "pending_user_upload",
+    "remote_commit_before_user_upload": "94bee31a9228e51dd1772ea8a4fc21403af2dc81"
+  },
+  "streamlit": {
+    "target_url": "https://language-ai-database.streamlit.app/",
+    "deployment_status": "pending_user_upload_and_reboot",
+    "online_new_version_observed": false
+  },
+  "package_guide": "请先阅读_GitHub替换部署照抄清单.md",
+  "assistant_attempt_before_this_package": {
+    "push_status": "blocked_authentication_required",
+    "push_error": "fatal: could not read Username for 'https://github.com': terminal prompts disabled",
+    "local_code_commit": "bb55ff90ed09993aebad4d9ff4b4cc656e230aad"
+  },
+  "notes": [
+    "本文件描述部署包交给用户时的状态；用户完成网页上传和Streamlit Reboot后，应另行记录新的远程提交与在线验收结果。",
+    "应用运行不读取本状态文件，不会因本文件中的待上传状态而影响启动。"
+  ]
+}

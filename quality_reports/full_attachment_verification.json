@@ -1,0 +1,1296 @@
+{
+  "verification_time": "2026-11-24T23:50:16.848Z",
+  "database_sha256": "256d577bd7f699e765bc0e9bff42fbc3d6c2627959d620ef3871320dbe390807",
+  "attachment_count": 80,
+  "docx_count": 56,
+  "pdf_count": 24,
+  "pdf_pages": 222,
+  "allowed_count": 80,
+  "parsed_count": 80,
+  "passed_files": 80,
+  "failed_files": 0,
+  "permission_note": "全部附件由用户明确授权公开下载；授权不等于官方来源已核验。",
+  "files": [
+    {
+      "attachment_id": "ATT_U001_001",
+      "university_id": "U001",
+      "path": "raw_files/欧洲10所/巴黎萨克雷大学-2.0.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U002_001",
+      "university_id": "U002",
+      "path": "raw_files/美国17所/宾夕法尼亚大学/宾夕法尼亚大学.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U003_001",
+      "university_id": "U003",
+      "path": "raw_files/日本1所/东京大学.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U004_001",
+      "university_id": "U004",
+      "path": "raw_files/中国12所/南京大学-2.0.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U005_001",
+      "university_id": "U005",
+      "path": "raw_files/中国12所/上海交通大学-2.0.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U006_001",
+      "university_id": "U006",
+      "path": "raw_files/中国12所/中国人民大学-2.0.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U007_001",
+      "university_id": "U007",
+      "path": "raw_files/中国12所/中国科学院大学-2.0.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U008_001",
+      "university_id": "U008",
+      "path": "raw_files/英国7所/1伦敦国王学院/NLP 博士项目清单 PDFproject-list-natural-language-processing.pdf",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "pages": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "actual_pages": 15,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U008_002",
+      "university_id": "U008",
+      "path": "raw_files/英国7所/伦敦国王学院/伦敦国王学院.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U009_001",
+      "university_id": "U009",
+      "path": "raw_files/英国7所/伦敦大学学院/伦敦大学学院.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U010_001",
+      "university_id": "U010",
+      "path": "raw_files/英国7所/剑桥大学/剑桥大学.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U011_001",
+      "university_id": "U011",
+      "path": "raw_files/美国17所/加州理工学院/加州理工学院.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U012_001",
+      "university_id": "U012",
+      "path": "raw_files/中国12所/北京外国语大学/北京外国语大学.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U012_002",
+      "university_id": "U012",
+      "path": "raw_files/中国12所/北京外国语大学/本科生专业：计算机科学与技术（语言智能方向）.pdf",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "pages": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "actual_pages": 11,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U013_001",
+      "university_id": "U013",
+      "path": "raw_files/中国12所/北京大学-2.0.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U013_E01",
+      "university_id": "U013",
+      "path": "derived/embedded/北京大学/北京大学-2025-计算机科学与技术专业（图灵班）培养方案__oleObject1.pdf",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "pages": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "actual_pages": 8,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U013_E02",
+      "university_id": "U013",
+      "path": "derived/embedded/北京大学/北京大学-2025-智能科学与技术专业培养方案__oleObject2.pdf",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "pages": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "actual_pages": 9,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U013_E03",
+      "university_id": "U013",
+      "path": "derived/embedded/北京大学/北京大学-智能科学与技术专业（智班）培养方案__oleObject3.pdf",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "pages": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "actual_pages": 8,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U013_E04",
+      "university_id": "U013",
+      "path": "derived/embedded/北京大学/北京大学-2025-信息与计算科学专业（计算机方向）培养方案__oleObject4.pdf",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "pages": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "actual_pages": 9,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U013_E05",
+      "university_id": "U013",
+      "path": "derived/embedded/北京大学/北京大学-2025-信息与计算科学专业（图灵班）培养方案__oleObject5.pdf",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "pages": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "actual_pages": 8,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U013_E06",
+      "university_id": "U013",
+      "path": "derived/embedded/北京大学/北京大学-2025-信息与计算科学专业（智能方向）培养方案__oleObject6.pdf",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "pages": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "actual_pages": 9,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U013_E07",
+      "university_id": "U013",
+      "path": "derived/embedded/北京大学/北京大学-2025-信息与计算科学专业（智班）培养方案__oleObject7.pdf",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "pages": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "actual_pages": 8,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U014_001",
+      "university_id": "U014",
+      "path": "raw_files/美国17所/华盛顿大学/华盛顿大学.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U015_001",
+      "university_id": "U015",
+      "path": "raw_files/亚洲3所/南洋理工大学-2.0.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U016_001",
+      "university_id": "U016",
+      "path": "raw_files/美国17所/卡内基梅隆大学/卡内基梅隆大学.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U016_002",
+      "university_id": "U016",
+      "path": "raw_files/美国17所/卡内基梅隆大学/智能信息系统理学硕士-handbook-2025-2026-final.pdf",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "pages": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "actual_pages": 24,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U016_003",
+      "university_id": "U016",
+      "path": "raw_files/美国17所/卡内基梅隆大学/语言与信息技术博士_phd_2025_2026.pdf",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "pages": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "actual_pages": 21,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U016_004",
+      "university_id": "U016",
+      "path": "raw_files/美国17所/卡内基梅隆大学/语言技术理学硕士-handbook-ay-25-26-final-ref.docx.pdf",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "pages": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "actual_pages": 20,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U017_001",
+      "university_id": "U017",
+      "path": "raw_files/美国17所/哈佛大学/Linguistics Graduate Student Handbook.pdf",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "pages": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "actual_pages": 26,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U017_002",
+      "university_id": "U017",
+      "path": "raw_files/美国17所/哈佛大学/哈佛大学.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U018_001",
+      "university_id": "U018",
+      "path": "raw_files/中国12所/哈尔滨工业大学-2.0.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U019_001",
+      "university_id": "U019",
+      "path": "raw_files/美国17所/哥伦比亚大学/哥伦比亚大学.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U019_002",
+      "university_id": "U019",
+      "path": "raw_files/美国17所/哥伦比亚大学/哥伦比亚大学信息科学本科专业课程设置.pdf",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "pages": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "actual_pages": 1,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U019_003",
+      "university_id": "U019",
+      "path": "raw_files/美国17所/哥伦比亚大学/哥伦比亚大学数据科学本科专业课程设置.pdf",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "pages": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "actual_pages": 1,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U019_004",
+      "university_id": "U019",
+      "path": "raw_files/美国17所/哥伦比亚大学/哥伦比亚大学计算机科学本科专业课程安排.pdf",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "pages": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "actual_pages": 1,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U020_001",
+      "university_id": "U020",
+      "path": "raw_files/欧洲10所/哥本哈根大学-2.0.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U021_001",
+      "university_id": "U021",
+      "path": "raw_files/大洋洲4所/墨尔本大学-2.0.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U022_001",
+      "university_id": "U022",
+      "path": "raw_files/中国12所/复旦大学/复旦大学.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U023_001",
+      "university_id": "U023",
+      "path": "raw_files/北美2所/多伦多大学-2.0.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U024_001",
+      "university_id": "U024",
+      "path": "raw_files/美国17所/密歇根大学/密歇根大学.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U025_001",
+      "university_id": "U025",
+      "path": "raw_files/英国7所/帝国理工学院/G700-MEng-Computing-(AIML)课程大纲-2025-26.pdf",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "pages": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "actual_pages": 15,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U025_002",
+      "university_id": "U025",
+      "path": "raw_files/英国7所/帝国理工学院/人工智能硕士课程大纲G5T1-MSc-Artificial-Intelligence-2025-26.pdf",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "pages": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "actual_pages": 10,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U025_003",
+      "university_id": "U025",
+      "path": "raw_files/英国7所/帝国理工学院/帝国理工学院.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U026_001",
+      "university_id": "U026",
+      "path": "raw_files/美国17所/康奈尔大学/康奈尔大学.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U027_001",
+      "university_id": "U027",
+      "path": "raw_files/大洋洲4所/悉尼大学-2.0.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U028_001",
+      "university_id": "U028",
+      "path": "raw_files/欧洲10所/慕尼黑大学-2.0.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U028_E01",
+      "university_id": "U028",
+      "path": "derived/embedded/慕尼黑大学/课程设置__oleObject1.pdf",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "pages": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "actual_pages": 1,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U029_001",
+      "university_id": "U029",
+      "path": "raw_files/欧洲10所/慕尼黑工业大学-2.0.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U030_001",
+      "university_id": "U030",
+      "path": "raw_files/美国17所/斯坦福大学/斯坦福大学.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U030_002",
+      "university_id": "U030",
+      "path": "raw_files/美国17所/斯坦福大学/语言学硕士.pdf",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "pages": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "actual_pages": 4,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U031_001",
+      "university_id": "U031",
+      "path": "raw_files/亚洲3所/新加坡国立大学-2.0.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U032_001",
+      "university_id": "U032",
+      "path": "raw_files/大洋洲4所/新南威尔士大学-2.0.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U033_001",
+      "university_id": "U033",
+      "path": "raw_files/大洋洲4所/昆士兰大学-2.0.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U034_001",
+      "university_id": "U034",
+      "path": "raw_files/美国17所/普林斯顿大学/普林斯顿大学.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U035_001",
+      "university_id": "U035",
+      "path": "raw_files/英国7所/曼彻斯特大学/曼彻斯特大学.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U036_001",
+      "university_id": "U036",
+      "path": "raw_files/美国17所/杜克大学/杜克大学.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U037_001",
+      "university_id": "U037",
+      "path": "raw_files/欧洲10所/格罗宁根大学-2.0.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U038_001",
+      "university_id": "U038",
+      "path": "raw_files/欧洲10所/洛桑联邦理工学院-2.0.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U039_001",
+      "university_id": "U039",
+      "path": "raw_files/中国12所/浙江大学/“文科+X”多学科交叉人才培养卓越中心.pdf",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "pages": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "actual_pages": 7,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U039_002",
+      "university_id": "U039",
+      "path": "raw_files/中国12所/浙江大学/浙江大学.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U040_001",
+      "university_id": "U040",
+      "path": "raw_files/欧洲10所/海德堡大学-2.0.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U041_001",
+      "university_id": "U041",
+      "path": "raw_files/中国12所/清华大学/清华大学.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U042_001",
+      "university_id": "U042",
+      "path": "raw_files/英国7所/爱丁堡大学/爱丁堡大学.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U043_001",
+      "university_id": "U043",
+      "path": "raw_files/英国7所/牛津大学/牛津大学.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U044_001",
+      "university_id": "U044",
+      "path": "raw_files/欧洲10所/索邦大学-2.0.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U045_001",
+      "university_id": "U045",
+      "path": "raw_files/美国17所/纽约大学/纽约大学.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U046_001",
+      "university_id": "U046",
+      "path": "raw_files/美国17所/耶鲁大学/耶鲁大学.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U047_001",
+      "university_id": "U047",
+      "path": "raw_files/美国17所/芝加哥大学/芝加哥大学.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U048_001",
+      "university_id": "U048",
+      "path": "raw_files/欧洲10所/苏黎世联邦理工学院-2.0.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U049_001",
+      "university_id": "U049",
+      "path": "raw_files/美国17所/范德堡大学/范德堡大学.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U050_001",
+      "university_id": "U050",
+      "path": "raw_files/欧洲10所/阿姆斯特丹大学-2.0.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U051_001",
+      "university_id": "U051",
+      "path": "raw_files/亚洲3所/首尔国立大学-2.0.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U052_001",
+      "university_id": "U052",
+      "path": "raw_files/中国12所/香港城市大学-2.0.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U053_001",
+      "university_id": "U053",
+      "path": "raw_files/中国12所/香港大学-2.0.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U054_001",
+      "university_id": "U054",
+      "path": "raw_files/美国17所/马里兰大学帕克分校/四年毕业计划：信息科学学士.pdf",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "pages": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "actual_pages": 2,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U054_002",
+      "university_id": "U054",
+      "path": "raw_files/美国17所/马里兰大学帕克分校/四年毕业计划：技术与信息设计学士.pdf",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "pages": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "actual_pages": 2,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U054_003",
+      "university_id": "U054",
+      "path": "raw_files/美国17所/马里兰大学帕克分校/四年毕业计划：社会数据科学学士.pdf",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "pages": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "actual_pages": 2,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U054_004",
+      "university_id": "U054",
+      "path": "raw_files/美国17所/马里兰大学帕克分校/马里兰大学帕克分校.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U055_001",
+      "university_id": "U055",
+      "path": "raw_files/北美2所/麦吉尔大学-2.0.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U056_001",
+      "university_id": "U056",
+      "path": "raw_files/美国17所/麻省理工学院/麻省理工学院.docx",
+      "checks": {
+        "safe_path": true,
+        "exists": true,
+        "bytes": true,
+        "sha256": true,
+        "docx_crc": true,
+        "document_xml": true,
+        "allowed": true,
+        "parsed": true
+      },
+      "passed": true
+    }
+  ],
+  "status": "pass"
+}

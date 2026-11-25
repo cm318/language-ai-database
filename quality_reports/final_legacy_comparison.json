@@ -1,0 +1,155 @@
+{
+  "verification_time": "2026-11-24T23:48:27.259Z",
+  "v1_db_sha256": "58ff80eb5c3f2346a045ccd7467c49e35c74e7f60d72d95d3d34f404a8e7ec92",
+  "v2_db_sha256": "256d577bd7f699e765bc0e9bff42fbc3d6c2627959d620ef3871320dbe390807",
+  "comparison_scope": "逐条核对 V1 原记录 ID、raw_text 完整原行及兼容视图旧字段；V2 新增记录只计数，不作为差异。",
+  "backup_file_count": 6,
+  "backup_files": [
+    {
+      "path": ".streamlit/config.toml",
+      "expected_sha256": "3a938b8e1da245dd85598c06eb226695325a2b156956f62a0e333a3562b9f2b9",
+      "actual_sha256": "3a938b8e1da245dd85598c06eb226695325a2b156956f62a0e333a3562b9f2b9",
+      "bytes_match": true,
+      "hash_match": true
+    },
+    {
+      "path": "README.md",
+      "expected_sha256": "869412a7a49cf3127c43bc5459b1bc5eda76d50c57864cb225360be5137340fb",
+      "actual_sha256": "869412a7a49cf3127c43bc5459b1bc5eda76d50c57864cb225360be5137340fb",
+      "bytes_match": true,
+      "hash_match": true
+    },
+    {
+      "path": "app.py",
+      "expected_sha256": "c78ac8827e7609b8fd5c08d1b60218190837d5827215d0673b72b77dc001e294",
+      "actual_sha256": "c78ac8827e7609b8fd5c08d1b60218190837d5827215d0673b72b77dc001e294",
+      "bytes_match": true,
+      "hash_match": true
+    },
+    {
+      "path": "data/language_ai_cases.db",
+      "expected_sha256": "58ff80eb5c3f2346a045ccd7467c49e35c74e7f60d72d95d3d34f404a8e7ec92",
+      "actual_sha256": "58ff80eb5c3f2346a045ccd7467c49e35c74e7f60d72d95d3d34f404a8e7ec92",
+      "bytes_match": true,
+      "hash_match": true
+    },
+    {
+      "path": "data/language_ai_cases.xlsx",
+      "expected_sha256": "29438e2f29255dcb49cb99924624e07ae792f15ea4b02ee35f9aa455843423ed",
+      "actual_sha256": "29438e2f29255dcb49cb99924624e07ae792f15ea4b02ee35f9aa455843423ed",
+      "bytes_match": true,
+      "hash_match": true
+    },
+    {
+      "path": "requirements.txt",
+      "expected_sha256": "1afa8514deb8cd23ad089c6283708cc7ddc6e875a73c0d499f13ef14e072bc2a",
+      "actual_sha256": "1afa8514deb8cd23ad089c6283708cc7ddc6e875a73c0d499f13ef14e072bc2a",
+      "bytes_match": true,
+      "hash_match": true
+    }
+  ],
+  "v1_total_rows": 181,
+  "raw_row_mismatches": 0,
+  "legacy_field_differences": 0,
+  "integrity_check": "ok",
+  "foreign_key_errors": 0,
+  "per_table": [
+    {
+      "table": "universities",
+      "v1_records": 4,
+      "v2_legacy_records": 56,
+      "v2_additional_records_not_in_v1": 52,
+      "raw_row_mismatches": 0,
+      "legacy_field_differences": 0
+    },
+    {
+      "table": "programs",
+      "v1_records": 10,
+      "v2_legacy_records": 272,
+      "v2_additional_records_not_in_v1": 262,
+      "raw_row_mismatches": 0,
+      "legacy_field_differences": 0
+    },
+    {
+      "table": "objectives",
+      "v1_records": 21,
+      "v2_legacy_records": 224,
+      "v2_additional_records_not_in_v1": 203,
+      "raw_row_mismatches": 0,
+      "legacy_field_differences": 0
+    },
+    {
+      "table": "courses",
+      "v1_records": 77,
+      "v2_legacy_records": 2725,
+      "v2_additional_records_not_in_v1": 2648,
+      "raw_row_mismatches": 0,
+      "legacy_field_differences": 0
+    },
+    {
+      "table": "faculty",
+      "v1_records": 31,
+      "v2_legacy_records": 2083,
+      "v2_additional_records_not_in_v1": 2052,
+      "raw_row_mismatches": 0,
+      "legacy_field_differences": 0
+    },
+    {
+      "table": "practice",
+      "v1_records": 11,
+      "v2_legacy_records": 265,
+      "v2_additional_records_not_in_v1": 254,
+      "raw_row_mismatches": 0,
+      "legacy_field_differences": 0
+    },
+    {
+      "table": "evaluation",
+      "v1_records": 8,
+      "v2_legacy_records": 410,
+      "v2_additional_records_not_in_v1": 402,
+      "raw_row_mismatches": 0,
+      "legacy_field_differences": 0
+    },
+    {
+      "table": "organizations",
+      "v1_records": 14,
+      "v2_legacy_records": 190,
+      "v2_additional_records_not_in_v1": 176,
+      "raw_row_mismatches": 0,
+      "legacy_field_differences": 0
+    },
+    {
+      "table": "sources",
+      "v1_records": 5,
+      "v2_legacy_records": 5,
+      "v2_additional_records_not_in_v1": 0,
+      "raw_row_mismatches": 0,
+      "legacy_field_differences": 0
+    }
+  ],
+  "per_university": {
+    "U001": {
+      "raw_row_mismatches": 0,
+      "legacy_field_differences": 0,
+      "v1_rows": 80
+    },
+    "U002": {
+      "raw_row_mismatches": 0,
+      "legacy_field_differences": 0,
+      "v1_rows": 37
+    },
+    "U003": {
+      "raw_row_mismatches": 0,
+      "legacy_field_differences": 0,
+      "v1_rows": 24
+    },
+    "U004": {
+      "raw_row_mismatches": 0,
+      "legacy_field_differences": 0,
+      "v1_rows": 40
+    }
+  },
+  "raw_mismatch_details": [],
+  "legacy_difference_details": [],
+  "status": "pass"
+}

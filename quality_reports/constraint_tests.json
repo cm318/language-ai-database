@@ -1,0 +1,215 @@
+{
+  "test_time": "2026-11-24T09:37:13.874Z",
+  "scope": "全部变更仅作用于临时 SQLite 测试副本；临时副本已删除。",
+  "production_db_sha256_before": "256d577bd7f699e765bc0e9bff42fbc3d6c2627959d620ef3871320dbe390807",
+  "production_db_sha256_after": "256d577bd7f699e765bc0e9bff42fbc3d6c2627959d620ef3871320dbe390807",
+  "production_db_unchanged": true,
+  "test_copy_integrity_check": "ok",
+  "test_copy_foreign_key_errors": 0,
+  "test_count": 25,
+  "passed_count": 25,
+  "failed_count": 0,
+  "status": "pass",
+  "results": [
+    {
+      "name": "文本主键允许 NULL 时必须拒绝",
+      "category": "primary_key",
+      "expected": " rejected",
+      "actual": "rejected",
+      "database_message": "NOT NULL constraint failed: universities.university_id",
+      "passed": true
+    },
+    {
+      "name": "项目引用不存在高校时必须拒绝",
+      "category": "foreign_key",
+      "expected": " rejected",
+      "actual": "rejected",
+      "database_message": "FOREIGN KEY constraint failed",
+      "passed": true
+    },
+    {
+      "name": "新增证据引用不存在业务目标时必须拒绝",
+      "category": "evidence_target",
+      "expected": " rejected",
+      "actual": "rejected",
+      "database_message": "source_links: target table or record is invalid",
+      "passed": true
+    },
+    {
+      "name": "证据更新为不存在业务目标时必须拒绝",
+      "category": "evidence_target",
+      "expected": " rejected",
+      "actual": "rejected",
+      "database_message": "source_links: target table or record is invalid",
+      "passed": true
+    },
+    {
+      "name": "新增核验事项引用不存在业务目标时必须拒绝",
+      "category": "review_target",
+      "expected": " rejected",
+      "actual": "rejected",
+      "database_message": "review_issues: target table or record is invalid",
+      "passed": true
+    },
+    {
+      "name": "证据缺少来源、附件和原文片段时必须拒绝",
+      "category": "evidence_carrier",
+      "expected": " rejected",
+      "actual": "rejected",
+      "database_message": "CHECK constraint failed: source_id IS NOT NULL OR attachment_id IS NOT NULL OR fragment_id IS NOT NULL",
+      "passed": true
+    },
+    {
+      "name": "被证据引用的记录不能删除",
+      "category": "referenced_delete",
+      "expected": " rejected",
+      "actual": "rejected",
+      "database_message": "courses: record is referenced by evidence or review issues",
+      "passed": true
+    },
+    {
+      "name": "被证据引用的记录不能修改主键",
+      "category": "referenced_primary_key_update",
+      "expected": " rejected",
+      "actual": "rejected",
+      "database_message": "courses: referenced primary key cannot change",
+      "passed": true
+    },
+    {
+      "name": "被核验事项引用的记录不能删除",
+      "category": "referenced_delete",
+      "expected": " rejected",
+      "actual": "rejected",
+      "database_message": "courses: record is referenced by evidence or review issues",
+      "passed": true
+    },
+    {
+      "name": "被核验事项引用的记录不能修改主键",
+      "category": "referenced_primary_key_update",
+      "expected": " rejected",
+      "actual": "rejected",
+      "database_message": "courses: referenced primary key cannot change",
+      "passed": true
+    },
+    {
+      "name": "research_project_links 同时关联两个目标时必须拒绝",
+      "category": "research_link_cardinality",
+      "expected": " rejected",
+      "actual": "rejected",
+      "database_message": "CHECK constraint failed: (faculty_id IS NOT NULL) + (organization_id IS NOT NULL) + (program_id IS NOT NULL) <= 1",
+      "passed": true
+    },
+    {
+      "name": "research_project_links 无关联目标且未保留原名时必须拒绝",
+      "category": "research_link_raw_name",
+      "expected": " rejected",
+      "actual": "rejected",
+      "database_message": "CHECK constraint failed: (faculty_id IS NOT NULL) + (organization_id IS NOT NULL) + (program_id IS NOT NULL) = 1\n           OR (linked_name_raw IS NOT NULL AND length(trim(linked_name_raw)) > 0)",
+      "passed": true
+    },
+    {
+      "name": "research_project_links 无关联目标但保留待核验原名时允许",
+      "category": "research_link_raw_name",
+      "expected": "accepted",
+      "actual": "accepted",
+      "database_message": null,
+      "passed": true
+    },
+    {
+      "name": "research_project_links 仅关联一个目标时允许",
+      "category": "research_link_cardinality",
+      "expected": "accepted",
+      "actual": "accepted",
+      "database_message": null,
+      "passed": true
+    },
+    {
+      "name": "research_output_links 同时关联两个目标时必须拒绝",
+      "category": "research_link_cardinality",
+      "expected": " rejected",
+      "actual": "rejected",
+      "database_message": "CHECK constraint failed: (faculty_id IS NOT NULL) + (organization_id IS NOT NULL) + (program_id IS NOT NULL) <= 1",
+      "passed": true
+    },
+    {
+      "name": "research_output_links 无关联目标且未保留原名时必须拒绝",
+      "category": "research_link_raw_name",
+      "expected": " rejected",
+      "actual": "rejected",
+      "database_message": "CHECK constraint failed: (faculty_id IS NOT NULL) + (organization_id IS NOT NULL) + (program_id IS NOT NULL) = 1\n           OR (linked_name_raw IS NOT NULL AND length(trim(linked_name_raw)) > 0)",
+      "passed": true
+    },
+    {
+      "name": "research_output_links 无关联目标但保留待核验原名时允许",
+      "category": "research_link_raw_name",
+      "expected": "accepted",
+      "actual": "accepted",
+      "database_message": null,
+      "passed": true
+    },
+    {
+      "name": "research_output_links 仅关联一个目标时允许",
+      "category": "research_link_cardinality",
+      "expected": "accepted",
+      "actual": "accepted",
+      "database_message": null,
+      "passed": true
+    },
+    {
+      "name": "scope_type=program 时缺少项目外键必须拒绝",
+      "category": "student_scope",
+      "expected": " rejected",
+      "actual": "rejected",
+      "database_message": "CHECK constraint failed: (scope_type = 'program' AND program_id IS NOT NULL) OR scope_type <> 'program'",
+      "passed": true
+    },
+    {
+      "name": "scope_type=university 时不强行关联项目",
+      "category": "student_scope",
+      "expected": "accepted",
+      "actual": "accepted",
+      "database_message": null,
+      "passed": true
+    },
+    {
+      "name": "规范化字段相同的项目—课程关系必须去重",
+      "category": "program_course_dedup",
+      "expected": " rejected",
+      "actual": "rejected",
+      "database_message": "UNIQUE constraint failed: index 'ux_program_course_dedup'",
+      "passed": true
+    },
+    {
+      "name": "同一课程可正向关联两个不同项目",
+      "category": "program_course_many_to_many",
+      "expected": "accepted",
+      "actual": "accepted",
+      "database_message": null,
+      "passed": true
+    },
+    {
+      "name": "同一教师可关联两个平台且不重复教师实体",
+      "category": "faculty_organization_many_to_many",
+      "expected": "accepted",
+      "actual": "accepted",
+      "database_message": null,
+      "passed": true
+    },
+    {
+      "name": "完全相同的教师—平台关系必须去重",
+      "category": "faculty_organization_dedup",
+      "expected": " rejected",
+      "actual": "rejected",
+      "database_message": "UNIQUE constraint failed: index 'ux_faculty_organization_dedup'",
+      "passed": true
+    },
+    {
+      "name": "非学位科研训练路径不得标为正式学位",
+      "category": "program_kind",
+      "expected": " rejected",
+      "actual": "rejected",
+      "database_message": "CHECK constraint failed: program_kind NOT IN ('research_training','research_group','short_program') OR is_formal_degree = 0",
+      "passed": true
+    }
+  ]
+}

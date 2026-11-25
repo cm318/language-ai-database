@@ -1,0 +1,922 @@
+{
+  "status": "pass",
+  "generated_at": "2026-11-25T00:25:12Z",
+  "source_root": "/mnt/agents/output/language_ai_v2",
+  "target_repository": "https://github.com/cm318/language-ai-database",
+  "branch": "main",
+  "payload_file_count_excluding_this_report": 180,
+  "repository_file_count_including_this_report": 181,
+  "payload_total_bytes_excluding_this_report": 146191775,
+  "registered_attachment_count": 80,
+  "top_level_attachment_count": 72,
+  "embedded_attachment_count": 8,
+  "uncompressed_database_included": false,
+  "content_reduced": false,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 626,
+      "sha256": "c8e37c6941c1af30d9f25623ad5a8a22c6329bb807ef19749e25f1a2a09b7637"
+    },
+    {
+      "path": ".streamlit/config.toml",
+      "bytes": 166,
+      "sha256": "3a938b8e1da245dd85598c06eb226695325a2b156956f62a0e333a3562b9f2b9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7406,
+      "sha256": "196b1596a01846618daec5405caa633b7e84b544febb69945545b05d66a7e3bb"
+    },
+    {
+      "path": "app.py",
+      "bytes": 45613,
+      "sha256": "8138ee9a6314fda1083c2f489391248c34f6294c7060b8f9091c04193dfb6157"
+    },
+    {
+      "path": "data/database_manifest.json",
+      "bytes": 367,
+      "sha256": "b168cdf74e99f80fe4f9f8b63d0ccd192f52dc59a2c20ca59f2d2bdc7ede253d"
+    },
+    {
+      "path": "data/language_ai_cases.db.gz",
+      "bytes": 18934737,
+      "sha256": "5b13a32d274a05420a4f0a247602473a02cec108592e3e87258ba6a24697811f"
+    },
+    {
+      "path": "data/language_ai_cases.xlsx",
+      "bytes": 21531468,
+      "sha256": "a3ce651889b7c4abe364a90adefec409158b53b502efc92b86208a50ee4d9e09"
+    },
+    {
+      "path": "derived/embedded/北京大学/北京大学-2025-信息与计算科学专业（图灵班）培养方案__oleObject5.pdf",
+      "bytes": 1385171,
+      "sha256": "e2d7cc6f3a86e85ce4b9f608424443e1806c83db4b6f840285efe7364f23ad36"
+    },
+    {
+      "path": "derived/embedded/北京大学/北京大学-2025-信息与计算科学专业（智班）培养方案__oleObject7.pdf",
+      "bytes": 1307162,
+      "sha256": "22d77bf3f5a3d4243ef753d2e4c6f254a9b4fd8f1f9dcf336c33beca0a4ad447"
+    },
+    {
+      "path": "derived/embedded/北京大学/北京大学-2025-信息与计算科学专业（智能方向）培养方案__oleObject6.pdf",
+      "bytes": 1019717,
+      "sha256": "85e3db4f18def8802e2e247035d7fd78dffa2d630ba5fc234619eb6a5f1769b2"
+    },
+    {
+      "path": "derived/embedded/北京大学/北京大学-2025-信息与计算科学专业（计算机方向）培养方案__oleObject4.pdf",
+      "bytes": 1099343,
+      "sha256": "c8a6d96388a8aa40b4b6c759be39f2a2aca8ac606a272f68014c224e6acb3c81"
+    },
+    {
+      "path": "derived/embedded/北京大学/北京大学-2025-智能科学与技术专业培养方案__oleObject2.pdf",
+      "bytes": 1288247,
+      "sha256": "02bfbaaa4c449b0c1285a357633cf33b62a82eecb1fe2b1e2dd5c243f9d857d0"
+    },
+    {
+      "path": "derived/embedded/北京大学/北京大学-2025-计算机科学与技术专业（图灵班）培养方案__oleObject1.pdf",
+      "bytes": 914961,
+      "sha256": "fccb39d91a249fb1695837fbed5121a45efb127b05d376920ce28b11a1fa03b3"
+    },
+    {
+      "path": "derived/embedded/北京大学/北京大学-智能科学与技术专业（智班）培养方案__oleObject3.pdf",
+      "bytes": 1264010,
+      "sha256": "0eb18443c9cea27f480343d083f6b5b6ff64f41cacc6bc2a13ae7d61ef0b7f7f"
+    },
+    {
+      "path": "derived/embedded/慕尼黑大学/课程设置__oleObject1.pdf",
+      "bytes": 204067,
+      "sha256": "229af80f44421c07cc5f8ae4401e0463d1c91a726d2686c17bdd7ad1c251d810"
+    },
+    {
+      "path": "quality_reports/80份附件完整性核验报告.md",
+      "bytes": 1196,
+      "sha256": "073e5f28ec52f159dc0c2c9a4297d0cbb0e2cb80461a277c52a4098a7ca771bb"
+    },
+    {
+      "path": "quality_reports/browser_regression.json",
+      "bytes": 41649,
+      "sha256": "1d2983c8865b794ea6ac4318659f6a749c955463e46a9854044792b96ce134d1"
+    },
+    {
+      "path": "quality_reports/constraint_tests.json",
+      "bytes": 7968,
+      "sha256": "c05490488aacbf239a4f0c148fe677390f4a27059a2919b0c41d3e312408ec91"
+    },
+    {
+      "path": "quality_reports/database_bootstrap_test.json",
+      "bytes": 700,
+      "sha256": "28f80ca8f1eb8919ef6df17e5c971df886b0552776721787acd390bb025df2d6"
+    },
+    {
+      "path": "quality_reports/deployment_database.json",
+      "bytes": 578,
+      "sha256": "6cd0ab851dca6acfc14552743bd0bb6b750c1a347120a7606375646bb4a301a1"
+    },
+    {
+      "path": "quality_reports/deployment_status.json",
+      "bytes": 2817,
+      "sha256": "02c667559918ba2dfb021fcd608bdb79769ae84274f2e363e684f7e63d9bc343"
+    },
+    {
+      "path": "quality_reports/excel_recalc_result.json",
+      "bytes": 133,
+      "sha256": "8bf3e60814d05d1c5999648c1a11d1cee4e9b5751dfcbda6716809f17ecbc67e"
+    },
+    {
+      "path": "quality_reports/excel_sqlite_consistency.json",
+      "bytes": 6159,
+      "sha256": "8c43aa2238b441c4e3a42a77427748a028c4304366ea67a46127cb10e8ee956d"
+    },
+    {
+      "path": "quality_reports/excel_verify.json",
+      "bytes": 1368,
+      "sha256": "643eee5676d5a233680e7819c843b59b300d9917c2c470c560e00fc8f3563aa9"
+    },
+    {
+      "path": "quality_reports/excel_verify_tool_raw.json",
+      "bytes": 1967051,
+      "sha256": "41f99f8f5afa867e04ee746610d3cadfeb574668c0fc76ee60de905f26f14aca"
+    },
+    {
+      "path": "quality_reports/final_acceptance_checks.json",
+      "bytes": 1766,
+      "sha256": "59a40d3592da9070f813a78f931f8150c5cff78b09ed8ebfe05de9dfbe09ef8d"
+    },
+    {
+      "path": "quality_reports/final_legacy_comparison.json",
+      "bytes": 4724,
+      "sha256": "c2bcaab4d86b5d9a35f590f23a45919940ccd28f0a0a86ff344d654eebc97ffe"
+    },
+    {
+      "path": "quality_reports/full_attachment_verification.json",
+      "bytes": 33801,
+      "sha256": "d7695b379f5f2300c1d2acd8b8adf25381e6b4fe035128f0570d213278ce1546"
+    },
+    {
+      "path": "quality_reports/full_import_summary.json",
+      "bytes": 30749,
+      "sha256": "c52b6bd435a5b7458298b66cf981f056e005d227aa7c56f1960e491a3893a21e"
+    },
+    {
+      "path": "quality_reports/full_quality_summary.json",
+      "bytes": 444,
+      "sha256": "48f247fa80278feb037736650b7865d7eea73cf22bd98968e7857e390d8c91a3"
+    },
+    {
+      "path": "quality_reports/online_precheck.json",
+      "bytes": 1607,
+      "sha256": "ec7ac14346fdf4b365b1a037722b73959210d4ba7ec8bb8b9a50903ee563783e"
+    },
+    {
+      "path": "quality_reports/repository_bootstrap_test.json",
+      "bytes": 3001,
+      "sha256": "2100aeb89c53b5fd4eb7c31cd7513af202b7dbc7d0899cc46927765ab4cb3862"
+    },
+    {
+      "path": "quality_reports/schools/U001_巴黎-萨克雷大学_质量报告.md",
+      "bytes": 6871,
+      "sha256": "71fa2761a6b46f7fd5dfb742e3002f5a6d9b47b14ac83e2a97390f387ce6ec6c"
+    },
+    {
+      "path": "quality_reports/schools/U002_宾夕法尼亚大学_质量报告.md",
+      "bytes": 3716,
+      "sha256": "3b8bb084fc164bf47384db5a7230b44e9207332cf047257c69afc07cce308f1a"
+    },
+    {
+      "path": "quality_reports/schools/U003_东京大学_质量报告.md",
+      "bytes": 6157,
+      "sha256": "c59a130424da494e8c49f55a654ee4a7d5b78fc1b41688b6b52bfa4efcb070e6"
+    },
+    {
+      "path": "quality_reports/schools/U004_南京大学_质量报告.md",
+      "bytes": 4340,
+      "sha256": "f7e585f4fcbe85ec92bb35788a9247e7c651e085ea58b24caedeccedfa287cd9"
+    },
+    {
+      "path": "quality_reports/schools/U005_上海交通大学_质量报告.md",
+      "bytes": 3163,
+      "sha256": "583efb0326e24699d5702992c3cca52786a1c4f5e8e5e92f0aa4e199e6a7397d"
+    },
+    {
+      "path": "quality_reports/schools/U006_中国人民大学_质量报告.md",
+      "bytes": 3159,
+      "sha256": "d8f0a282a460757dd9e77fe7261969894f4481681d16e5071ce329784ec5951e"
+    },
+    {
+      "path": "quality_reports/schools/U007_中国科学院大学_质量报告.md",
+      "bytes": 3169,
+      "sha256": "7b577912c1e4f4a89658b33e4a7d8c0fe9e9d92ff98c898a8e380740b31b82ea"
+    },
+    {
+      "path": "quality_reports/schools/U008_伦敦国王学院_质量报告.md",
+      "bytes": 5736,
+      "sha256": "469e48533e0bcd3672501eb6981c3c62b4f4d322f2cb32c688a3cb5f2201e1ba"
+    },
+    {
+      "path": "quality_reports/schools/U009_伦敦大学学院_质量报告.md",
+      "bytes": 3161,
+      "sha256": "9ce6cc8dc2a664327e1270a587409a9c587adfa4a40a982d459a0e9b97fc647b"
+    },
+    {
+      "path": "quality_reports/schools/U010_剑桥大学_质量报告.md",
+      "bytes": 3154,
+      "sha256": "b943a07c46390780bcc9cdb17bd4f8281fa3dac266754df35f4beb4088d039a0"
+    },
+    {
+      "path": "quality_reports/schools/U011_加州理工学院_质量报告.md",
+      "bytes": 3153,
+      "sha256": "5135db3c41e65cf911c33cb53ec8638cab657f92b1d650e6257524d6161b8f76"
+    },
+    {
+      "path": "quality_reports/schools/U012_北京外国语大学_质量报告.md",
+      "bytes": 3357,
+      "sha256": "c3d415d052ab526ae78f7a8029dca95b99bdb64113c438057408567bf6b32834"
+    },
+    {
+      "path": "quality_reports/schools/U013_北京大学_质量报告.md",
+      "bytes": 4625,
+      "sha256": "a65103b794bd5b974ffbc8cb85c9d1bd3d838a455b9f521cbc93cb9a7621b2ee"
+    },
+    {
+      "path": "quality_reports/schools/U014_华盛顿大学_质量报告.md",
+      "bytes": 3156,
+      "sha256": "c1299827e72ab2611ab32138c15bf6302bbcb3c2f1d1c18ebccaf7706bafdd48"
+    },
+    {
+      "path": "quality_reports/schools/U015_南洋理工大学_质量报告.md",
+      "bytes": 3166,
+      "sha256": "3d9a7634f1ab6ef7fb338b2470ae96aa7f0db16fb32924892a40fe3ca6872133"
+    },
+    {
+      "path": "quality_reports/schools/U016_卡内基梅隆大学_质量报告.md",
+      "bytes": 3702,
+      "sha256": "0e49ede336040b5907f7714f67550fd2a25a855c32fb7e4a4dde1f409fd5a931"
+    },
+    {
+      "path": "quality_reports/schools/U017_哈佛大学_质量报告.md",
+      "bytes": 3311,
+      "sha256": "c8df14ee9b8d0e76cb45a6b020c89859d4586624ee5b9413c7a2be7da25a33e9"
+    },
+    {
+      "path": "quality_reports/schools/U018_哈尔滨工业大学_质量报告.md",
+      "bytes": 3168,
+      "sha256": "c15b1b43b38b5428647e103481b595a851b1b4d36f5b802f84a1139f82c67f11"
+    },
+    {
+      "path": "quality_reports/schools/U019_哥伦比亚大学_质量报告.md",
+      "bytes": 3701,
+      "sha256": "1b21ef9d23570ded6af9a964be88f42f51510841d5eccfb69accb2633ef97f47"
+    },
+    {
+      "path": "quality_reports/schools/U020_哥本哈根大学_质量报告.md",
+      "bytes": 3164,
+      "sha256": "ae136cbd8dcac372a8e32209d565a46e5234bd1a5d22cf3d2678b99babd8e3de"
+    },
+    {
+      "path": "quality_reports/schools/U021_墨尔本大学_质量报告.md",
+      "bytes": 3291,
+      "sha256": "fd9e9d385ad2975eb30ab412711fddbcc3ba4a4e670556d161b59ab9019788f0"
+    },
+    {
+      "path": "quality_reports/schools/U022_复旦大学_质量报告.md",
+      "bytes": 3144,
+      "sha256": "885fc9b6a97226b40e62f41a185cd4cb2977cffcca17b48871d4e21683e06d35"
+    },
+    {
+      "path": "quality_reports/schools/U023_多伦多大学_质量报告.md",
+      "bytes": 3158,
+      "sha256": "8eef15cfb52fca5ba0a2c0f70701389c4725bbda2f06ddb7cf4f3caaf717ac84"
+    },
+    {
+      "path": "quality_reports/schools/U024_密歇根大学_质量报告.md",
+      "bytes": 3153,
+      "sha256": "4ffcd7767e9aff77e84734073cd8abf78a1ec1ec4dc08612a1bbfdfe5821bc86"
+    },
+    {
+      "path": "quality_reports/schools/U025_帝国理工学院_质量报告.md",
+      "bytes": 3538,
+      "sha256": "331c621924b238fb4b405a559fb64fe6e6d6ceeef1a2d52e89b7cf05983cc799"
+    },
+    {
+      "path": "quality_reports/schools/U026_康奈尔大学_质量报告.md",
+      "bytes": 3150,
+      "sha256": "e7750d6aaf6e30549c10d741263567ec44f080f054441ee3aa9e41c12003c668"
+    },
+    {
+      "path": "quality_reports/schools/U027_悉尼大学_质量报告.md",
+      "bytes": 3149,
+      "sha256": "8547ed951a0d450192b24cf93662e462264e3b5a34df8247b964e8500cd4fff9"
+    },
+    {
+      "path": "quality_reports/schools/U028_慕尼黑大学_质量报告.md",
+      "bytes": 3308,
+      "sha256": "d326c75e38212e54a65c9ee1241ea4df38d6da7e7cf9cff3fc9fbd6ef85d6bcc"
+    },
+    {
+      "path": "quality_reports/schools/U029_慕尼黑工业大学_质量报告.md",
+      "bytes": 3166,
+      "sha256": "b414f74167bf2e91cdc5b2e849a5906af0c0b43c875c9b41993517531aab1caf"
+    },
+    {
+      "path": "quality_reports/schools/U030_斯坦福大学_质量报告.md",
+      "bytes": 3295,
+      "sha256": "591c9f369fb77191cf781bb2b6bb9ce24c4996d2a94a6fcbadc8a4a62f6ad08c"
+    },
+    {
+      "path": "quality_reports/schools/U031_新加坡国立大学_质量报告.md",
+      "bytes": 3163,
+      "sha256": "74b4de755a09f5412b631ec18fa87b783bfd1940e148a3fd7717adc226f6bcf9"
+    },
+    {
+      "path": "quality_reports/schools/U032_新南威尔士大学_质量报告.md",
+      "bytes": 3170,
+      "sha256": "ab4aff61b8a72f21719074fbd74d95f38b8255df0a8976214e55f485fa381ea9"
+    },
+    {
+      "path": "quality_reports/schools/U033_昆士兰大学_质量报告.md",
+      "bytes": 3157,
+      "sha256": "f051464cdee2c06703a4c22e226b3051ad3f5673868087fdc657d848e1689f01"
+    },
+    {
+      "path": "quality_reports/schools/U034_普林斯顿大学_质量报告.md",
+      "bytes": 3155,
+      "sha256": "89a7f5736117d3742f656d377728c5996e3dd9e370481f40786d171d0ab3ddc0"
+    },
+    {
+      "path": "quality_reports/schools/U035_曼彻斯特大学_质量报告.md",
+      "bytes": 3158,
+      "sha256": "5813fcca55cab59b6d1a80b725fb11280c23ff9ff41806d7cf527f2839f93bd3"
+    },
+    {
+      "path": "quality_reports/schools/U036_杜克大学_质量报告.md",
+      "bytes": 3146,
+      "sha256": "98f9e2b0b7699ef34df233b6e8dabf92099b70e9ec33a8f09e455cfe18f4694f"
+    },
+    {
+      "path": "quality_reports/schools/U037_格罗宁根大学_质量报告.md",
+      "bytes": 3164,
+      "sha256": "152c9e0b1b8dd1e806152891f2becff86af44711abe30b6b2c3e822ec3a683d0"
+    },
+    {
+      "path": "quality_reports/schools/U038_洛桑联邦理工学院_质量报告.md",
+      "bytes": 3170,
+      "sha256": "c730309fb3c5cbec753cdd82d17eb45bac66e1b995447122e88bf481552afaf1"
+    },
+    {
+      "path": "quality_reports/schools/U039_浙江大学_质量报告.md",
+      "bytes": 3324,
+      "sha256": "39c663a814cdaf8e54532bcd403a43d47ae1f2ab2a73ab92d8ddd156c6ede295"
+    },
+    {
+      "path": "quality_reports/schools/U040_海德堡大学_质量报告.md",
+      "bytes": 3156,
+      "sha256": "33299d4eac82bc4c483278cb96963d7233f92b68370060369e495336e5283806"
+    },
+    {
+      "path": "quality_reports/schools/U041_清华大学_质量报告.md",
+      "bytes": 3154,
+      "sha256": "538285735a2b635fb1bcfb238e02bb59c2cc1587479c2bdc4a2e892c863d113e"
+    },
+    {
+      "path": "quality_reports/schools/U042_爱丁堡大学_质量报告.md",
+      "bytes": 3150,
+      "sha256": "caa4699b3c0c5f4d27f34b15c11bdedffe32bc63b6d90fd55b8f7ee4f441bb64"
+    },
+    {
+      "path": "quality_reports/schools/U043_牛津大学_质量报告.md",
+      "bytes": 3148,
+      "sha256": "e8c33d369c322170cf0a9413d50a79fdb089a16591fc9b37f542b1f0051e1d67"
+    },
+    {
+      "path": "quality_reports/schools/U044_索邦大学_质量报告.md",
+      "bytes": 3146,
+      "sha256": "fdf21ac9a6e1d963256853f0034dd2860eab5161ff8182072f5615e052f51999"
+    },
+    {
+      "path": "quality_reports/schools/U045_纽约大学_质量报告.md",
+      "bytes": 3153,
+      "sha256": "f98a31f0e238f5e834c61cc2ba2fb84b38cac70d8faaf98feb1b7461f2f919c4"
+    },
+    {
+      "path": "quality_reports/schools/U046_耶鲁大学_质量报告.md",
+      "bytes": 3143,
+      "sha256": "5a49fab344d880df6f61ad118e521b0a0eab1009860eb37edb4b3bef20eefac2"
+    },
+    {
+      "path": "quality_reports/schools/U047_芝加哥大学_质量报告.md",
+      "bytes": 3147,
+      "sha256": "a9a6305282b981000ce1341b98a1cf61139b549b28146e1be9cdcce7b481df0d"
+    },
+    {
+      "path": "quality_reports/schools/U048_苏黎世联邦理工学院_质量报告.md",
+      "bytes": 3180,
+      "sha256": "db064b2117887cb51f2e86090ba7d713c7ad20dfd03a2914fa1320eb406bdaa5"
+    },
+    {
+      "path": "quality_reports/schools/U049_范德堡大学_质量报告.md",
+      "bytes": 3155,
+      "sha256": "7bda024f00221c031f560e01be461f5d6512fe8abac201f11fea0a7b4e85788b"
+    },
+    {
+      "path": "quality_reports/schools/U050_阿姆斯特丹大学_质量报告.md",
+      "bytes": 3163,
+      "sha256": "885459b230e210248c710347b4e709eddc9a8b0a581c46c8d992c35dc6393b3a"
+    },
+    {
+      "path": "quality_reports/schools/U051_首尔国立大学_质量报告.md",
+      "bytes": 3162,
+      "sha256": "e4f93d8a9dd7769b414b64d13e827af00563bb471d3532d0afdb9436c3c611c6"
+    },
+    {
+      "path": "quality_reports/schools/U052_香港城市大学_质量报告.md",
+      "bytes": 3160,
+      "sha256": "472344fed3ba2ba5485483ee5ee6fcb8caed21a764e60cb66bb2af6063e72ecb"
+    },
+    {
+      "path": "quality_reports/schools/U053_香港大学_质量报告.md",
+      "bytes": 3147,
+      "sha256": "e06d23af4c47ccb0c455fb8bdea0b345705da8e46d9f19768814cfd73e3499fc"
+    },
+    {
+      "path": "quality_reports/schools/U054_马里兰大学帕克分校_质量报告.md",
+      "bytes": 3695,
+      "sha256": "a2cae52fae40ccdb92d5786822d09bae2a8d87ead7d802627dd212b1798a1558"
+    },
+    {
+      "path": "quality_reports/schools/U055_麦吉尔大学_质量报告.md",
+      "bytes": 3160,
+      "sha256": "780821c30b021bbd576d9ea1abf2d98ee601566bd40560df3e256ff31d5dd559"
+    },
+    {
+      "path": "quality_reports/schools/U056_麻省理工学院_质量报告.md",
+      "bytes": 3156,
+      "sha256": "6306475beecbfd89b4fd3be899b567c40d0da8a1279046df6b2bfdf1cc0199d9"
+    },
+    {
+      "path": "quality_reports/全量结构化验收报告.md",
+      "bytes": 3596,
+      "sha256": "8e5f1bcc3acdf1fd1abc5e6f466c508ef8c55cd0af9698d054f50228177a49dd"
+    },
+    {
+      "path": "quality_reports/阶段总体验收报告.md",
+      "bytes": 9309,
+      "sha256": "32ee297c542483a66faa65e817f9b8d1bcdac32fd074687c9440e567df0e5e12"
+    },
+    {
+      "path": "raw_files/中国12所/上海交通大学-2.0.docx",
+      "bytes": 3811099,
+      "sha256": "f37d6addb29792966679a408c604aff6a16895a3bda073718efe3b654169f6a9"
+    },
+    {
+      "path": "raw_files/中国12所/中国人民大学-2.0.docx",
+      "bytes": 764262,
+      "sha256": "f92f36e7b742773a5694ce3087d8d9c57a32806bfb939b403d0b3731acfe9568"
+    },
+    {
+      "path": "raw_files/中国12所/中国科学院大学-2.0.docx",
+      "bytes": 143354,
+      "sha256": "57c4de8aad78797ffeafff5e7b27fa9c1adc28833a1711274b05b690262dbad9"
+    },
+    {
+      "path": "raw_files/中国12所/北京外国语大学/北京外国语大学.docx",
+      "bytes": 934377,
+      "sha256": "8e89a7cf36fb5445f6092ef4ed92a05e95023242624034cf9cd18210793b5803"
+    },
+    {
+      "path": "raw_files/中国12所/北京外国语大学/本科生专业：计算机科学与技术（语言智能方向）.pdf",
+      "bytes": 830914,
+      "sha256": "59aa6791199bea9940730f2a4320a300dd7bdcc3ceb00d495b6652657848e65d"
+    },
+    {
+      "path": "raw_files/中国12所/北京大学-2.0.docx",
+      "bytes": 16482892,
+      "sha256": "07ef0df5ae9da85010801df2f6063cdbcd123bf9de0c6ecf853cc48cfd674b2e"
+    },
+    {
+      "path": "raw_files/中国12所/南京大学-2.0.docx",
+      "bytes": 247251,
+      "sha256": "06adf92a2fec67192f8040f9b80aec3511c87dc8b7037b312e4cb363c13d9dff"
+    },
+    {
+      "path": "raw_files/中国12所/哈尔滨工业大学-2.0.docx",
+      "bytes": 564470,
+      "sha256": "3be1a5eed838819eab38cb1f6773462e7fdef2c7c6c220b0f36c56614ecdc1a8"
+    },
+    {
+      "path": "raw_files/中国12所/复旦大学/复旦大学.docx",
+      "bytes": 689123,
+      "sha256": "353404481988d9df4c943d9adae5045566c3578607218b8c81b84b5f604022e9"
+    },
+    {
+      "path": "raw_files/中国12所/浙江大学/“文科+X”多学科交叉人才培养卓越中心.pdf",
+      "bytes": 587945,
+      "sha256": "ffb058cbf547b3ffff72a18f80e9871381ad113be308af812113475decfbaefc"
+    },
+    {
+      "path": "raw_files/中国12所/浙江大学/浙江大学.docx",
+      "bytes": 304996,
+      "sha256": "208b1290599c01a041c03e9bccd8db5fa085dae9fa36c9a820359827d4fb88fc"
+    },
+    {
+      "path": "raw_files/中国12所/清华大学/清华大学.docx",
+      "bytes": 10934489,
+      "sha256": "55bc5aa3951736211183d60e0f04224466890a012b70ad31d59b18bb04708f07"
+    },
+    {
+      "path": "raw_files/中国12所/香港城市大学-2.0.docx",
+      "bytes": 233589,
+      "sha256": "c07ba3fb95e26fe65a966d52c1744cc8f8226e20db583c1744c80a3567e972de"
+    },
+    {
+      "path": "raw_files/中国12所/香港大学-2.0.docx",
+      "bytes": 124908,
+      "sha256": "8ab6f60ca3c906ca9eee1af9e57a96ae09599d588d99ca9051468e5553d9e0ef"
+    },
+    {
+      "path": "raw_files/亚洲3所/南洋理工大学-2.0.docx",
+      "bytes": 507293,
+      "sha256": "f15a5a9707397991a58e903024ef15d897bfb69d36e7c8b8757c702c443687af"
+    },
+    {
+      "path": "raw_files/亚洲3所/新加坡国立大学-2.0.docx",
+      "bytes": 149145,
+      "sha256": "f091db49d0c809648d1ca4c80437bdb258e58609e176e0d098019deaa2a2d736"
+    },
+    {
+      "path": "raw_files/亚洲3所/首尔国立大学-2.0.docx",
+      "bytes": 155880,
+      "sha256": "b77d40c8f4ae5b89ca71e97f0ca56f913e29990f4d573cdf126be807ca4197d9"
+    },
+    {
+      "path": "raw_files/北美2所/多伦多大学-2.0.docx",
+      "bytes": 250223,
+      "sha256": "31b05fbdad88e1258ca9d3eb9a8a69303a3dfe391a54c2003fc39c071c18f008"
+    },
+    {
+      "path": "raw_files/北美2所/麦吉尔大学-2.0.docx",
+      "bytes": 494223,
+      "sha256": "df85bc40d2884b2b3cdf34a7dc1230158000eb67a2e71c9fc6c1ad7936d64771"
+    },
+    {
+      "path": "raw_files/大洋洲4所/墨尔本大学-2.0.docx",
+      "bytes": 118375,
+      "sha256": "09cf48e6139be776112085afe1b629a6ba62b03979c63e19403d6499ee3ae379"
+    },
+    {
+      "path": "raw_files/大洋洲4所/悉尼大学-2.0.docx",
+      "bytes": 158967,
+      "sha256": "9979f2417d8fc46c894ba401405948f3690abf553db27b918267e7a233c95b6c"
+    },
+    {
+      "path": "raw_files/大洋洲4所/新南威尔士大学-2.0.docx",
+      "bytes": 348500,
+      "sha256": "464a31d372912a8420370426180a990ff38f01d005861f13e2830018fe99182a"
+    },
+    {
+      "path": "raw_files/大洋洲4所/昆士兰大学-2.0.docx",
+      "bytes": 347944,
+      "sha256": "15df8bb96ee2ddf4957f593ffce1f90c8888d6561b822b54f4f6331f0fcad298"
+    },
+    {
+      "path": "raw_files/日本1所/东京大学.docx",
+      "bytes": 390765,
+      "sha256": "24b9435cf67642ec1b61c94639078903fb7b60330d49f2a18f078f68ddc639a1"
+    },
+    {
+      "path": "raw_files/欧洲10所/哥本哈根大学-2.0.docx",
+      "bytes": 276994,
+      "sha256": "41b1ed4a763cdfce35d073609bc9e257d7a09ed1a042f15db8743f6a780b33bb"
+    },
+    {
+      "path": "raw_files/欧洲10所/巴黎萨克雷大学-2.0.docx",
+      "bytes": 201566,
+      "sha256": "524703972d6ee1177c0741d77219fae8bcf4d2cfe16e8b343f4b02d28dcae661"
+    },
+    {
+      "path": "raw_files/欧洲10所/慕尼黑大学-2.0.docx",
+      "bytes": 382296,
+      "sha256": "4490bdf4954f1cb6804d0f1325d836692bf7ec6ab439bb20ef923e437de72e14"
+    },
+    {
+      "path": "raw_files/欧洲10所/慕尼黑工业大学-2.0.docx",
+      "bytes": 665793,
+      "sha256": "09cd5d155490c8e32b02ca9ad1b9689f2695ee391a3c3eb6d118a8c5352e7b5a"
+    },
+    {
+      "path": "raw_files/欧洲10所/格罗宁根大学-2.0.docx",
+      "bytes": 237557,
+      "sha256": "8cfc1023242472441ef0a534f7f5ba67c42b917f7896e541fd763dc791c76097"
+    },
+    {
+      "path": "raw_files/欧洲10所/洛桑联邦理工学院-2.0.docx",
+      "bytes": 204381,
+      "sha256": "9b14d86f1be95e2bcee1f77295eba05000ca137618a33c1249cf8ae213cb5729"
+    },
+    {
+      "path": "raw_files/欧洲10所/海德堡大学-2.0.docx",
+      "bytes": 165146,
+      "sha256": "6763e98b18afe53208d7384d2183d1df2de09af18374fd5f64ca602e16a7c6ba"
+    },
+    {
+      "path": "raw_files/欧洲10所/索邦大学-2.0.docx",
+      "bytes": 98364,
+      "sha256": "52b72a053c8b92cc5390296ef81d67c324b109da6deea465fe908a1557aeb31c"
+    },
+    {
+      "path": "raw_files/欧洲10所/苏黎世联邦理工学院-2.0.docx",
+      "bytes": 880246,
+      "sha256": "01aaa2666324442f93349d86c9fc6f142dccedbbceb8092c8b3e1c3b1639f44d"
+    },
+    {
+      "path": "raw_files/欧洲10所/阿姆斯特丹大学-2.0.docx",
+      "bytes": 99546,
+      "sha256": "05dd77d7814182c6fcf6a50c9c4cfc8428931df8d7e8ea957fb927f348d80a0b"
+    },
+    {
+      "path": "raw_files/美国17所/加州理工学院/加州理工学院.docx",
+      "bytes": 306495,
+      "sha256": "b5487451450812125b7f1c0c468643392d14d4bf479b7fc1bfe7600d54cb95d7"
+    },
+    {
+      "path": "raw_files/美国17所/华盛顿大学/华盛顿大学.docx",
+      "bytes": 186410,
+      "sha256": "b3dd83a9d80265dae975e3eb4b01b4827285e14e796a3a83c71c7b27d9a6dba9"
+    },
+    {
+      "path": "raw_files/美国17所/卡内基梅隆大学/卡内基梅隆大学.docx",
+      "bytes": 422470,
+      "sha256": "db83dd4d46662446e2a88d9eb32f3a02bca158428c6e20132b81ac846d5c9303"
+    },
+    {
+      "path": "raw_files/美国17所/卡内基梅隆大学/智能信息系统理学硕士-handbook-2025-2026-final.pdf",
+      "bytes": 278874,
+      "sha256": "8091aa98afee7e943e53b909ec27b14983b9414ee396e49c1857c74f8f9e50b7"
+    },
+    {
+      "path": "raw_files/美国17所/卡内基梅隆大学/语言与信息技术博士_phd_2025_2026.pdf",
+      "bytes": 343701,
+      "sha256": "f994a105844982647dc99ceacf946ed8a66850b3ada21315ec7df2011469106a"
+    },
+    {
+      "path": "raw_files/美国17所/卡内基梅隆大学/语言技术理学硕士-handbook-ay-25-26-final-ref.docx.pdf",
+      "bytes": 520271,
+      "sha256": "6b4c6cc79b0ea7fbb042c09dbcacf8bf68e809e3325fa599fc138fb64885fbff"
+    },
+    {
+      "path": "raw_files/美国17所/哈佛大学/Linguistics Graduate Student Handbook.pdf",
+      "bytes": 469791,
+      "sha256": "0a4057c5b36b365c62243ca79fae63b1e32cee0486a61dcdc904c4bcec9137a8"
+    },
+    {
+      "path": "raw_files/美国17所/哈佛大学/哈佛大学.docx",
+      "bytes": 7317655,
+      "sha256": "867d48e950cb9e533994ebcdb400f45a30f7084a132fbfa75571e48604f8ad56"
+    },
+    {
+      "path": "raw_files/美国17所/哥伦比亚大学/哥伦比亚大学.docx",
+      "bytes": 382553,
+      "sha256": "de89751fa762d5041886b55d1fcb4e7ae3d95de39cb8b60014e4ee3013710a2b"
+    },
+    {
+      "path": "raw_files/美国17所/哥伦比亚大学/哥伦比亚大学信息科学本科专业课程设置.pdf",
+      "bytes": 127697,
+      "sha256": "7860ebf5469c446a934c51cf4e610eacc7aa4f1db1bbcdc04ea0723730d0d508"
+    },
+    {
+      "path": "raw_files/美国17所/哥伦比亚大学/哥伦比亚大学数据科学本科专业课程设置.pdf",
+      "bytes": 30319,
+      "sha256": "93b32c55dba3b8c53ae7f3b9f26fcad75481fddfece2da99c5c9384b5b5458ee"
+    },
+    {
+      "path": "raw_files/美国17所/哥伦比亚大学/哥伦比亚大学计算机科学本科专业课程安排.pdf",
+      "bytes": 140662,
+      "sha256": "79725a4cab7759a0d37affb8e8298e005ce9ce7e17f472e65df0570b3f0b7c87"
+    },
+    {
+      "path": "raw_files/美国17所/宾夕法尼亚大学/宾夕法尼亚大学.docx",
+      "bytes": 842409,
+      "sha256": "c89ed9c06a227f13f101e1b83268fc8c8b20b84765b67f80e152dcc2054ee4c6"
+    },
+    {
+      "path": "raw_files/美国17所/密歇根大学/密歇根大学.docx",
+      "bytes": 274003,
+      "sha256": "20d34e6e837e978da3a92ecef955db309b20dcf38ef849968136d715abe16ccf"
+    },
+    {
+      "path": "raw_files/美国17所/康奈尔大学/康奈尔大学.docx",
+      "bytes": 242175,
+      "sha256": "a2644fdcf8e2e33c1a012814a71689ccb3b24e4bfaac0fef09d53b5178537223"
+    },
+    {
+      "path": "raw_files/美国17所/斯坦福大学/斯坦福大学.docx",
+      "bytes": 7285830,
+      "sha256": "08e2a4a59b8680f948b4b50e18e76f2d812476d51a9278a2a42eaf3884f56aeb"
+    },
+    {
+      "path": "raw_files/美国17所/斯坦福大学/语言学硕士.pdf",
+      "bytes": 47814,
+      "sha256": "391b77312da9d6c5c1856dca342be2f7959f78193cbb74c42e8c5e87754df588"
+    },
+    {
+      "path": "raw_files/美国17所/普林斯顿大学/普林斯顿大学.docx",
+      "bytes": 124835,
+      "sha256": "78363d8d99207e4cadda2f78f4c3f81d4d9e7e9836066b75a5941c6d6ecf5167"
+    },
+    {
+      "path": "raw_files/美国17所/杜克大学/杜克大学.docx",
+      "bytes": 261013,
+      "sha256": "5c444fe6f1aee58a822e7dd3f8bf4c042d408024148a588b08ff9d9a657afe99"
+    },
+    {
+      "path": "raw_files/美国17所/纽约大学/纽约大学.docx",
+      "bytes": 7478197,
+      "sha256": "b81be815a6439673d8d7314fddba4538c48cf8683b0c4b17a8509c771ea6ff11"
+    },
+    {
+      "path": "raw_files/美国17所/耶鲁大学/耶鲁大学.docx",
+      "bytes": 221330,
+      "sha256": "a6c2585acbd4c9478b9cd2142d444358193d7bba160565b9fe533220c028d5b8"
+    },
+    {
+      "path": "raw_files/美国17所/芝加哥大学/芝加哥大学.docx",
+      "bytes": 151765,
+      "sha256": "383b4667a1b0e3857e63d0ed79563e523554813b37b20c1fb3bfb60ad2ad5231"
+    },
+    {
+      "path": "raw_files/美国17所/范德堡大学/范德堡大学.docx",
+      "bytes": 1050920,
+      "sha256": "0d6d0bde0f4cb0a5ba4a414404a8afaa9f3fcdc2545210e9069320869f7fefd9"
+    },
+    {
+      "path": "raw_files/美国17所/马里兰大学帕克分校/四年毕业计划：信息科学学士.pdf",
+      "bytes": 638099,
+      "sha256": "b4edc66c3d204b3e4acc97340308f0d8f42cf84d506b09b7464638dbf9e46e05"
+    },
+    {
+      "path": "raw_files/美国17所/马里兰大学帕克分校/四年毕业计划：技术与信息设计学士.pdf",
+      "bytes": 625914,
+      "sha256": "6e9a87389441ddc0e439f2b391612909242e8b681e99c3012a7f54a0a148061d"
+    },
+    {
+      "path": "raw_files/美国17所/马里兰大学帕克分校/四年毕业计划：社会数据科学学士.pdf",
+      "bytes": 665113,
+      "sha256": "85637ae49cf3ccb6843620f762b00f734f7af573bc577189e05e410c5b6d008f"
+    },
+    {
+      "path": "raw_files/美国17所/马里兰大学帕克分校/马里兰大学帕克分校.docx",
+      "bytes": 1811040,
+      "sha256": "289ea474eafd38b9008e537b11b78045ff0f817c21597ba03a0c91dfacc60f02"
+    },
+    {
+      "path": "raw_files/美国17所/麻省理工学院/麻省理工学院.docx",
+      "bytes": 1657475,
+      "sha256": "acf10ecabe424ea8f5d60d3ad2fa72f1a92dea87c3a1b999fb172892ef6ad746"
+    },
+    {
+      "path": "raw_files/英国7所/1伦敦国王学院/NLP 博士项目清单 PDFproject-list-natural-language-processing.pdf",
+      "bytes": 246160,
+      "sha256": "19a8d1f792e7c69cc9712b83c433f5b19d68b22da80830f8e922b98af9d04521"
+    },
+    {
+      "path": "raw_files/英国7所/伦敦国王学院/伦敦国王学院.docx",
+      "bytes": 132558,
+      "sha256": "41afd7fd85561280b1626e6dbcf812289d64cb4a24334682457a37d09df14f24"
+    },
+    {
+      "path": "raw_files/英国7所/伦敦大学学院/伦敦大学学院.docx",
+      "bytes": 7340944,
+      "sha256": "c0db128e80f4f320448bc0375420d44036df22ea0851e8aedb253a29c14a35fd"
+    },
+    {
+      "path": "raw_files/英国7所/剑桥大学/剑桥大学.docx",
+      "bytes": 7429856,
+      "sha256": "5091e1760dba95ab951390dafe8b746bda1584aefa1411cedcc6ac248d533d74"
+    },
+    {
+      "path": "raw_files/英国7所/帝国理工学院/G700-MEng-Computing-(AIML)课程大纲-2025-26.pdf",
+      "bytes": 273991,
+      "sha256": "bd95289b0f83f8fd3ec244679a5d6e3cdef97c3a910e5c7b36b902619f28bb1d"
+    },
+    {
+      "path": "raw_files/英国7所/帝国理工学院/人工智能硕士课程大纲G5T1-MSc-Artificial-Intelligence-2025-26.pdf",
+      "bytes": 202824,
+      "sha256": "d921edb76fd1c110afe249bbe43f78e987878a9930fbfdbbdf39a8554d66f744"
+    },
+    {
+      "path": "raw_files/英国7所/帝国理工学院/帝国理工学院.docx",
+      "bytes": 1224321,
+      "sha256": "f5815171a9e5da0f44de09858f34df9058ce610703099bbfebc1035c236e1f33"
+    },
+    {
+      "path": "raw_files/英国7所/曼彻斯特大学/曼彻斯特大学.docx",
+      "bytes": 450092,
+      "sha256": "5f949dfa0cba16811f0e7f36fa5053ac34c8dede9a5720b183ede390556c5407"
+    },
+    {
+      "path": "raw_files/英国7所/爱丁堡大学/爱丁堡大学.docx",
+      "bytes": 148043,
+      "sha256": "38ae2eafcd2f20dc1213fb36343358242057bf14f6fe1e04c5e7337ddb899518"
+    },
+    {
+      "path": "raw_files/英国7所/牛津大学/牛津大学.docx",
+      "bytes": 255254,
+      "sha256": "49411999c8c9d14d9b0b553f10d9563d4d590f1055a9a5fd7606a78d4f88ac2d"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 63,
+      "sha256": "8f3942292da1dc537107e524c0545a2448f8aa782264faef816fd4f902d135cc"
+    },
+    {
+      "path": "schema/schema_v2.sql",
+      "bytes": 71137,
+      "sha256": "225075d3a536d400f67941d582e0e4c778720b4e9136e2722976d85868b19529"
+    },
+    {
+      "path": "schema/数据字典.md",
+      "bytes": 45193,
+      "sha256": "91cfe247d2a99c1dd532b5972a63250dde41f58d89c7785744f5ffda3f97a076"
+    },
+    {
+      "path": "schema/数据库V2结构方案.md",
+      "bytes": 50871,
+      "sha256": "2a131b6e7d2e09bc6444d59ebadadfa79b1c0b96c6172fa9ecfa28e334bec8b2"
+    },
+    {
+      "path": "scripts/audit_source_images.py",
+      "bytes": 3004,
+      "sha256": "dc95944189fd3d758bb037eed98260b85a9316b36782853aa1ce0d2c68e821e8"
+    },
+    {
+      "path": "scripts/export_v2.py",
+      "bytes": 19790,
+      "sha256": "281d580cc891aa81216f4e34e8b965825bf73a7271d74528f44876d348d0adf5"
+    },
+    {
+      "path": "scripts/extract_embedded.py",
+      "bytes": 3894,
+      "sha256": "e51814fe18d76ce24ab32ff5061d5df0de6a5a10b28bc060f8a27c99cb7e5967"
+    },
+    {
+      "path": "scripts/full_import.py",
+      "bytes": 112284,
+      "sha256": "ab29b1a5e171187ab21f12e69ffa89970e41b502ae3a83033815850808698154"
+    },
+    {
+      "path": "scripts/generate_quality_reports.py",
+      "bytes": 15929,
+      "sha256": "210bcf70e74d768059c82ffe805fb05e6aaafdc13e5a95e5214ed64205f5060a"
+    },
+    {
+      "path": "scripts/generate_schema.py",
+      "bytes": 44309,
+      "sha256": "cbb27b0082214d36816851c6de08b80789b8bf37a62a73127777688163daaf79"
+    },
+    {
+      "path": "scripts/migrate_v1_to_v2.py",
+      "bytes": 30939,
+      "sha256": "e7493d6e2f54071ec122a9ff13699cb252b3f22d2835a936da9b84c1db4c4f16"
+    },
+    {
+      "path": "scripts/package_stage.py",
+      "bytes": 11547,
+      "sha256": "0ad3870500a0fc80c9d4b6db30bd1430a35543d284fa8db99e3d1c8cd57e482b"
+    },
+    {
+      "path": "scripts/prepare_deployment.py",
+      "bytes": 3559,
+      "sha256": "98cc87c1127a68d5026fbdb19bf44490b7636282888c6826e34319eb6a4673da"
+    },
+    {
+      "path": "scripts/sync_repository.py",
+      "bytes": 11261,
+      "sha256": "e6439ba451ae9f28ef4647341a5b0a70ac4759151ce11d764502b89c7e0f7a00"
+    },
+    {
+      "path": "scripts/verify_attachments.py",
+      "bytes": 10353,
+      "sha256": "75d0c6fee1b0223384ffa95baba36b772549ee341774a1dd6fa042693d7e4c3a"
+    },
+    {
+      "path": "scripts/verify_constraints.py",
+      "bytes": 14699,
+      "sha256": "ff1e4a46469df61a0f16b05d6a1a00636182e05c2666059c885e0ea61e960410"
+    },
+    {
+      "path": "scripts/verify_final_acceptance.py",
+      "bytes": 25698,
+      "sha256": "b385c2dadaf479e3738cf87878600d2da38b5e28b4f8e2401f05e1bdcb92fb85"
+    },
+    {
+      "path": "部署说明.md",
+      "bytes": 7559,
+      "sha256": "63918cddff593680589a99cc6a3850eacfa8a053c8c3535a9ed39f8c1e733fb2"
+    }
+  ],
+  "notes": [
+    "本报告自身不自哈希；其余公开仓库文件均逐文件记录字节数和 SHA-256。",
+    "仅同步数据库登记的 80 份正式附件；早期乱码 OLE 重复文件、测试库、备份和原始 ZIP 均排除。",
+    "同步与本地提交不等于已推送 GitHub，也不等于 Streamlit Cloud 已更新。"
+  ]
+}

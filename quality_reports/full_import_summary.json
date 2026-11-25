@@ -1,0 +1,1288 @@
+{
+  "created_at": "2026-11-24T09:17:32.128Z",
+  "parser_version": "full-source-import-1.0.1",
+  "mode": "full",
+  "selected": [
+    "U001",
+    "U002",
+    "U003",
+    "U004",
+    "U005",
+    "U006",
+    "U007",
+    "U008",
+    "U009",
+    "U010",
+    "U011",
+    "U012",
+    "U013",
+    "U014",
+    "U015",
+    "U016",
+    "U017",
+    "U018",
+    "U019",
+    "U020",
+    "U021",
+    "U022",
+    "U023",
+    "U024",
+    "U025",
+    "U026",
+    "U027",
+    "U028",
+    "U029",
+    "U030",
+    "U031",
+    "U032",
+    "U033",
+    "U034",
+    "U035",
+    "U036",
+    "U037",
+    "U038",
+    "U039",
+    "U040",
+    "U041",
+    "U042",
+    "U043",
+    "U044",
+    "U045",
+    "U046",
+    "U047",
+    "U048",
+    "U049",
+    "U050",
+    "U051",
+    "U052",
+    "U053",
+    "U054",
+    "U055",
+    "U056"
+  ],
+  "promoted": true,
+  "database": "/mnt/agents/output/language_ai_v2/data/language_ai_cases.db",
+  "database_sha256": "256d577bd7f699e765bc0e9bff42fbc3d6c2627959d620ef3871320dbe390807",
+  "top_pdf_pages": 162,
+  "embedded_pdf_pages": 60,
+  "permission_note": "2026-11-24用户明确授权：所有文件均有许可，可公开下载。该授权仅改变下载权限，不代表来源已成为官方已核验来源。",
+  "validation": {
+    "integrity_check": "ok",
+    "foreign_key_violations": 0,
+    "unprocessed_fragments": 0,
+    "missing_new_record_evidence": 0,
+    "bad_pdf_locators": 0,
+    "v1_preservation": {
+      "checked": true,
+      "differences": 0
+    },
+    "views": 17,
+    "triggers": 44,
+    "counts": {
+      "universities": 56,
+      "programs": 272,
+      "objectives": 224,
+      "courses": 2725,
+      "program_course": 3273,
+      "faculty": 2083,
+      "faculty_organization": 1088,
+      "practice": 265,
+      "evaluation": 410,
+      "organizations": 190,
+      "research_projects": 186,
+      "research_project_links": 156,
+      "research_outputs": 10091,
+      "research_output_links": 8806,
+      "student_development": 8766,
+      "sources": 5036,
+      "source_links": 83321,
+      "attachments": 80,
+      "raw_fragments": 84046,
+      "review_issues": 38,
+      "import_batches": 116
+    }
+  },
+  "schools": [
+    {
+      "university_id": "U001",
+      "school": "巴黎-萨克雷大学",
+      "fragments": 975,
+      "new_records": {
+        "source_links": 1073,
+        "programs": 3,
+        "practice": 191,
+        "evaluation": 22,
+        "organizations": 2,
+        "research_outputs": 68,
+        "research_output_links": 68,
+        "faculty": 63,
+        "sources": 99
+      },
+      "dispositions": {
+        "mapped": 911,
+        "raw_only": 64
+      }
+    },
+    {
+      "university_id": "U002",
+      "school": "宾夕法尼亚大学",
+      "fragments": 2065,
+      "new_records": {
+        "source_links": 2090,
+        "programs": 6,
+        "organizations": 0,
+        "faculty_organization": 31,
+        "faculty": 19,
+        "student_development": 203,
+        "sources": 63
+      },
+      "dispositions": {
+        "mapped": 1975,
+        "raw_only": 90
+      }
+    },
+    {
+      "university_id": "U003",
+      "school": "东京大学",
+      "fragments": 996,
+      "new_records": {
+        "source_links": 785,
+        "research_outputs": 365,
+        "faculty_organization": 8,
+        "faculty": 3,
+        "research_output_links": 158,
+        "research_projects": 4,
+        "research_project_links": 4,
+        "student_development": 137,
+        "sources": 12
+      },
+      "dispositions": {
+        "mapped": 592,
+        "raw_only": 404
+      }
+    },
+    {
+      "university_id": "U004",
+      "school": "南京大学",
+      "fragments": 1706,
+      "new_records": {
+        "source_links": 1850,
+        "organizations": 4,
+        "research_outputs": 318,
+        "research_output_links": 318,
+        "faculty": 13,
+        "student_development": 301,
+        "sources": 33
+      },
+      "dispositions": {
+        "mapped": 1504,
+        "raw_only": 202
+      }
+    },
+    {
+      "university_id": "U005",
+      "school": "上海交通大学",
+      "fragments": 1679,
+      "new_records": {
+        "source_links": 2145,
+        "programs": 8,
+        "courses": 247,
+        "program_course": 408,
+        "organizations": 4,
+        "faculty": 28,
+        "faculty_organization": 28,
+        "student_development": 74,
+        "sources": 109
+      },
+      "dispositions": {
+        "mapped": 1587,
+        "raw_only": 92
+      }
+    },
+    {
+      "university_id": "U006",
+      "school": "中国人民大学",
+      "fragments": 764,
+      "new_records": {
+        "source_links": 829,
+        "organizations": 2,
+        "research_outputs": 36,
+        "research_output_links": 33,
+        "faculty": 12,
+        "student_development": 129,
+        "sources": 78
+      },
+      "dispositions": {
+        "mapped": 689,
+        "raw_only": 75
+      }
+    },
+    {
+      "university_id": "U007",
+      "school": "中国科学院大学",
+      "fragments": 1122,
+      "new_records": {
+        "source_links": 1110,
+        "programs": 2,
+        "research_outputs": 237,
+        "organizations": 1,
+        "research_projects": 48,
+        "research_project_links": 48,
+        "research_output_links": 10,
+        "faculty": 15,
+        "student_development": 195,
+        "sources": 33
+      },
+      "dispositions": {
+        "mapped": 1023,
+        "raw_only": 99
+      }
+    },
+    {
+      "university_id": "U008",
+      "school": "伦敦国王学院",
+      "fragments": 1681,
+      "new_records": {
+        "source_links": 1343,
+        "programs": 6,
+        "research_projects": 34,
+        "organizations": 8,
+        "faculty": 14,
+        "research_outputs": 173,
+        "research_output_links": 173,
+        "student_development": 151,
+        "research_project_links": 12,
+        "review_issues": 8,
+        "sources": 45
+      },
+      "dispositions": {
+        "issue_created": 8,
+        "mapped": 1087,
+        "raw_only": 586
+      }
+    },
+    {
+      "university_id": "U009",
+      "school": "伦敦大学学院",
+      "fragments": 1867,
+      "new_records": {
+        "source_links": 1369,
+        "programs": 19,
+        "research_outputs": 149,
+        "organizations": 1,
+        "research_output_links": 131,
+        "faculty": 11,
+        "student_development": 386,
+        "sources": 41
+      },
+      "dispositions": {
+        "mapped": 1202,
+        "raw_only": 665
+      }
+    },
+    {
+      "university_id": "U010",
+      "school": "剑桥大学",
+      "fragments": 3413,
+      "new_records": {
+        "source_links": 2993,
+        "programs": 6,
+        "practice": 14,
+        "organizations": 5,
+        "research_projects": 12,
+        "research_project_links": 12,
+        "faculty": 44,
+        "faculty_organization": 46,
+        "research_outputs": 543,
+        "research_output_links": 543,
+        "student_development": 719,
+        "sources": 105
+      },
+      "dispositions": {
+        "mapped": 2282,
+        "raw_only": 1131
+      }
+    },
+    {
+      "university_id": "U011",
+      "school": "加州理工学院",
+      "fragments": 693,
+      "new_records": {
+        "source_links": 631,
+        "programs": 5,
+        "evaluation": 2,
+        "organizations": 2,
+        "faculty": 7,
+        "research_outputs": 4,
+        "research_output_links": 4,
+        "student_development": 239,
+        "sources": 15
+      },
+      "dispositions": {
+        "mapped": 614,
+        "raw_only": 79
+      }
+    },
+    {
+      "university_id": "U012",
+      "school": "北京外国语大学",
+      "fragments": 898,
+      "new_records": {
+        "source_links": 884,
+        "programs": 6,
+        "courses": 53,
+        "program_course": 53,
+        "organizations": 2,
+        "research_outputs": 10,
+        "research_output_links": 10,
+        "research_projects": 1,
+        "research_project_links": 1,
+        "faculty": 20,
+        "faculty_organization": 20,
+        "objectives": 27,
+        "evaluation": 24,
+        "sources": 12
+      },
+      "dispositions": {
+        "mapped": 788,
+        "raw_only": 110
+      }
+    },
+    {
+      "university_id": "U013",
+      "school": "北京大学",
+      "fragments": 4090,
+      "new_records": {
+        "source_links": 4511,
+        "programs": 8,
+        "courses": 171,
+        "program_course": 595,
+        "organizations": 6,
+        "research_outputs": 218,
+        "research_output_links": 215,
+        "research_projects": 8,
+        "research_project_links": 8,
+        "faculty": 86,
+        "faculty_organization": 77,
+        "student_development": 48,
+        "objectives": 82,
+        "evaluation": 22,
+        "sources": 77
+      },
+      "dispositions": {
+        "mapped": 3531,
+        "raw_only": 559
+      }
+    },
+    {
+      "university_id": "U014",
+      "school": "华盛顿大学",
+      "fragments": 1701,
+      "new_records": {
+        "source_links": 1395,
+        "programs": 3,
+        "courses": 107,
+        "program_course": 107,
+        "research_outputs": 84,
+        "organizations": 19,
+        "research_output_links": 59,
+        "faculty": 34,
+        "research_projects": 12,
+        "research_project_links": 5,
+        "faculty_organization": 3,
+        "student_development": 131,
+        "sources": 65
+      },
+      "dispositions": {
+        "mapped": 1169,
+        "raw_only": 532
+      }
+    },
+    {
+      "university_id": "U015",
+      "school": "南洋理工大学",
+      "fragments": 1374,
+      "new_records": {
+        "source_links": 1473,
+        "programs": 2,
+        "evaluation": 50,
+        "courses": 160,
+        "program_course": 160,
+        "practice": 32,
+        "organizations": 1,
+        "research_outputs": 157,
+        "research_output_links": 157,
+        "faculty": 37,
+        "student_development": 15,
+        "sources": 14
+      },
+      "dispositions": {
+        "mapped": 1092,
+        "raw_only": 282
+      }
+    },
+    {
+      "university_id": "U016",
+      "school": "卡内基梅隆大学",
+      "fragments": 2879,
+      "new_records": {
+        "source_links": 2721,
+        "programs": 7,
+        "objectives": 7,
+        "courses": 8,
+        "program_course": 8,
+        "organizations": 2,
+        "research_projects": 1,
+        "research_project_links": 1,
+        "research_outputs": 213,
+        "research_output_links": 191,
+        "faculty": 25,
+        "faculty_organization": 1,
+        "student_development": 289,
+        "sources": 62
+      },
+      "dispositions": {
+        "mapped": 2462,
+        "raw_only": 417
+      }
+    },
+    {
+      "university_id": "U017",
+      "school": "哈佛大学",
+      "fragments": 1589,
+      "new_records": {
+        "source_links": 1635,
+        "programs": 7,
+        "organizations": 5,
+        "research_outputs": 242,
+        "research_output_links": 211,
+        "faculty": 8,
+        "faculty_organization": 5,
+        "student_development": 81,
+        "sources": 45
+      },
+      "dispositions": {
+        "mapped": 1376,
+        "raw_only": 213
+      }
+    },
+    {
+      "university_id": "U018",
+      "school": "哈尔滨工业大学",
+      "fragments": 2546,
+      "new_records": {
+        "source_links": 658,
+        "courses": 64,
+        "evaluation": 3,
+        "organizations": 4,
+        "research_outputs": 1,
+        "faculty": 2,
+        "student_development": 487,
+        "sources": 120
+      },
+      "dispositions": {
+        "mapped": 639,
+        "raw_only": 1907
+      }
+    },
+    {
+      "university_id": "U019",
+      "school": "哥伦比亚大学",
+      "fragments": 897,
+      "new_records": {
+        "source_links": 752,
+        "programs": 9,
+        "courses": 64,
+        "program_course": 64,
+        "organizations": 6,
+        "research_outputs": 37,
+        "research_output_links": 28,
+        "faculty": 10,
+        "faculty_organization": 1,
+        "student_development": 72,
+        "sources": 32
+      },
+      "dispositions": {
+        "mapped": 640,
+        "raw_only": 257
+      }
+    },
+    {
+      "university_id": "U020",
+      "school": "哥本哈根大学",
+      "fragments": 2001,
+      "new_records": {
+        "source_links": 1605,
+        "programs": 5,
+        "courses": 50,
+        "program_course": 50,
+        "organizations": 5,
+        "faculty": 35,
+        "faculty_organization": 35,
+        "research_outputs": 50,
+        "research_output_links": 50,
+        "student_development": 117,
+        "sources": 171
+      },
+      "dispositions": {
+        "mapped": 1328,
+        "raw_only": 673
+      }
+    },
+    {
+      "university_id": "U021",
+      "school": "墨尔本大学",
+      "fragments": 671,
+      "new_records": {
+        "source_links": 683,
+        "review_issues": 1,
+        "programs": 3,
+        "organizations": 3,
+        "research_projects": 19,
+        "research_project_links": 19,
+        "faculty": 21,
+        "faculty_organization": 21,
+        "student_development": 97,
+        "sources": 29
+      },
+      "dispositions": {
+        "issue_created": 1,
+        "mapped": 595,
+        "raw_only": 75
+      }
+    },
+    {
+      "university_id": "U022",
+      "school": "复旦大学",
+      "fragments": 556,
+      "new_records": {
+        "source_links": 607,
+        "programs": 5,
+        "organizations": 2,
+        "faculty": 13,
+        "faculty_organization": 13,
+        "research_outputs": 132,
+        "research_output_links": 132,
+        "research_projects": 2,
+        "research_project_links": 2,
+        "student_development": 54,
+        "sources": 37
+      },
+      "dispositions": {
+        "mapped": 400,
+        "raw_only": 156
+      }
+    },
+    {
+      "university_id": "U023",
+      "school": "多伦多大学",
+      "fragments": 1792,
+      "new_records": {
+        "source_links": 2173,
+        "programs": 7,
+        "courses": 204,
+        "program_course": 209,
+        "organizations": 3,
+        "faculty": 40,
+        "faculty_organization": 41,
+        "research_outputs": 116,
+        "research_output_links": 116,
+        "student_development": 175,
+        "sources": 86
+      },
+      "dispositions": {
+        "mapped": 1700,
+        "raw_only": 92
+      }
+    },
+    {
+      "university_id": "U024",
+      "school": "密歇根大学",
+      "fragments": 1395,
+      "new_records": {
+        "source_links": 1178,
+        "programs": 4,
+        "organizations": 4,
+        "research_outputs": 157,
+        "research_output_links": 157,
+        "faculty": 16,
+        "faculty_organization": 9,
+        "student_development": 221,
+        "sources": 15
+      },
+      "dispositions": {
+        "mapped": 1001,
+        "raw_only": 394
+      }
+    },
+    {
+      "university_id": "U025",
+      "school": "帝国理工学院",
+      "fragments": 3174,
+      "new_records": {
+        "source_links": 2801,
+        "programs": 6,
+        "research_outputs": 567,
+        "organizations": 1,
+        "research_output_links": 121,
+        "faculty": 39,
+        "faculty_organization": 37,
+        "student_development": 302,
+        "evaluation": 141,
+        "courses": 18,
+        "program_course": 18,
+        "sources": 98
+      },
+      "dispositions": {
+        "mapped": 2565,
+        "raw_only": 609
+      }
+    },
+    {
+      "university_id": "U026",
+      "school": "康奈尔大学",
+      "fragments": 692,
+      "new_records": {
+        "source_links": 531,
+        "organizations": 1,
+        "research_outputs": 158,
+        "research_output_links": 123,
+        "faculty": 13,
+        "student_development": 76,
+        "sources": 26
+      },
+      "dispositions": {
+        "mapped": 373,
+        "raw_only": 319
+      }
+    },
+    {
+      "university_id": "U027",
+      "school": "悉尼大学",
+      "fragments": 932,
+      "new_records": {
+        "source_links": 990,
+        "programs": 7,
+        "courses": 54,
+        "program_course": 54,
+        "objectives": 4,
+        "organizations": 4,
+        "research_outputs": 53,
+        "research_output_links": 55,
+        "research_projects": 1,
+        "faculty": 15,
+        "faculty_organization": 15,
+        "student_development": 112,
+        "sources": 62
+      },
+      "dispositions": {
+        "mapped": 781,
+        "raw_only": 151
+      }
+    },
+    {
+      "university_id": "U028",
+      "school": "慕尼黑大学",
+      "fragments": 1084,
+      "new_records": {
+        "source_links": 1355,
+        "programs": 8,
+        "evaluation": 17,
+        "organizations": 5,
+        "research_projects": 4,
+        "research_project_links": 4,
+        "research_outputs": 13,
+        "research_output_links": 13,
+        "faculty": 120,
+        "faculty_organization": 126,
+        "student_development": 79,
+        "sources": 206
+      },
+      "dispositions": {
+        "mapped": 898,
+        "raw_only": 186
+      }
+    },
+    {
+      "university_id": "U029",
+      "school": "慕尼黑工业大学",
+      "fragments": 1099,
+      "new_records": {
+        "source_links": 564,
+        "programs": 2,
+        "research_outputs": 32,
+        "organizations": 2,
+        "faculty": 38,
+        "research_output_links": 20,
+        "faculty_organization": 3,
+        "student_development": 68,
+        "sources": 72
+      },
+      "dispositions": {
+        "mapped": 475,
+        "raw_only": 624
+      }
+    },
+    {
+      "university_id": "U030",
+      "school": "斯坦福大学",
+      "fragments": 1301,
+      "new_records": {
+        "source_links": 1147,
+        "evaluation": 19,
+        "faculty": 19,
+        "research_outputs": 157,
+        "research_output_links": 135,
+        "student_development": 440,
+        "programs": 1,
+        "sources": 28
+      },
+      "dispositions": {
+        "mapped": 987,
+        "raw_only": 314
+      }
+    },
+    {
+      "university_id": "U031",
+      "school": "新加坡国立大学",
+      "fragments": 510,
+      "new_records": {
+        "source_links": 721,
+        "programs": 3,
+        "courses": 34,
+        "program_course": 34,
+        "evaluation": 6,
+        "practice": 6,
+        "objectives": 6,
+        "organizations": 1,
+        "research_outputs": 205,
+        "research_output_links": 205,
+        "sources": 5
+      },
+      "dispositions": {
+        "mapped": 477,
+        "raw_only": 33
+      }
+    },
+    {
+      "university_id": "U032",
+      "school": "新南威尔士大学",
+      "fragments": 2842,
+      "new_records": {
+        "source_links": 5859,
+        "programs": 4,
+        "organizations": 1,
+        "research_projects": 1,
+        "research_project_links": 1,
+        "research_outputs": 1606,
+        "research_output_links": 1643,
+        "faculty": 9,
+        "sources": 803
+      },
+      "dispositions": {
+        "mapped": 2638,
+        "raw_only": 204
+      }
+    },
+    {
+      "university_id": "U033",
+      "school": "昆士兰大学",
+      "fragments": 2507,
+      "new_records": {
+        "source_links": 2965,
+        "programs": 5,
+        "objectives": 17,
+        "courses": 204,
+        "program_course": 204,
+        "organizations": 1,
+        "faculty": 2,
+        "research_outputs": 298,
+        "research_output_links": 302,
+        "student_development": 37,
+        "sources": 21
+      },
+      "dispositions": {
+        "mapped": 2439,
+        "raw_only": 68
+      }
+    },
+    {
+      "university_id": "U034",
+      "school": "普林斯顿大学",
+      "fragments": 888,
+      "new_records": {
+        "source_links": 709,
+        "programs": 5,
+        "organizations": 4,
+        "research_outputs": 9,
+        "research_output_links": 9,
+        "faculty": 26,
+        "faculty_organization": 18,
+        "student_development": 101,
+        "sources": 45
+      },
+      "dispositions": {
+        "mapped": 645,
+        "raw_only": 243
+      }
+    },
+    {
+      "university_id": "U035",
+      "school": "曼彻斯特大学",
+      "fragments": 1832,
+      "new_records": {
+        "source_links": 1534,
+        "programs": 7,
+        "organizations": 1,
+        "faculty": 25,
+        "research_outputs": 145,
+        "research_output_links": 61,
+        "student_development": 76,
+        "sources": 43
+      },
+      "dispositions": {
+        "mapped": 1437,
+        "raw_only": 395
+      }
+    },
+    {
+      "university_id": "U036",
+      "school": "杜克大学",
+      "fragments": 1712,
+      "new_records": {
+        "source_links": 1790,
+        "programs": 5,
+        "organizations": 1,
+        "faculty": 31,
+        "research_outputs": 342,
+        "research_output_links": 309,
+        "student_development": 43,
+        "sources": 301
+      },
+      "dispositions": {
+        "mapped": 924,
+        "raw_only": 788
+      }
+    },
+    {
+      "university_id": "U037",
+      "school": "格罗宁根大学",
+      "fragments": 1244,
+      "new_records": {
+        "source_links": 1439,
+        "programs": 12,
+        "courses": 179,
+        "program_course": 180,
+        "organizations": 4,
+        "research_projects": 21,
+        "research_project_links": 21,
+        "faculty": 82,
+        "faculty_organization": 83,
+        "student_development": 55,
+        "sources": 205
+      },
+      "dispositions": {
+        "mapped": 957,
+        "raw_only": 287
+      }
+    },
+    {
+      "university_id": "U038",
+      "school": "洛桑联邦理工学院",
+      "fragments": 317,
+      "new_records": {
+        "source_links": 464,
+        "programs": 2,
+        "organizations": 4,
+        "research_outputs": 20,
+        "research_output_links": 20,
+        "faculty": 141,
+        "faculty_organization": 142,
+        "sources": 29
+      },
+      "dispositions": {
+        "mapped": 265,
+        "raw_only": 52
+      }
+    },
+    {
+      "university_id": "U039",
+      "school": "浙江大学",
+      "fragments": 707,
+      "new_records": {
+        "source_links": 398,
+        "organizations": 3,
+        "research_outputs": 160,
+        "research_output_links": 37,
+        "faculty": 4,
+        "student_development": 125,
+        "sources": 10
+      },
+      "dispositions": {
+        "mapped": 352,
+        "raw_only": 355
+      }
+    },
+    {
+      "university_id": "U040",
+      "school": "海德堡大学",
+      "fragments": 698,
+      "new_records": {
+        "source_links": 1285,
+        "programs": 4,
+        "organizations": 3,
+        "faculty": 27,
+        "faculty_organization": 27,
+        "research_outputs": 182,
+        "research_output_links": 182,
+        "courses": 23,
+        "research_projects": 1,
+        "research_project_links": 1,
+        "student_development": 77,
+        "sources": 331
+      },
+      "dispositions": {
+        "mapped": 584,
+        "raw_only": 114
+      }
+    },
+    {
+      "university_id": "U041",
+      "school": "清华大学",
+      "fragments": 2788,
+      "new_records": {
+        "source_links": 2696,
+        "programs": 4,
+        "courses": 83,
+        "program_course": 83,
+        "objectives": 1,
+        "organizations": 3,
+        "research_outputs": 852,
+        "research_output_links": 833,
+        "research_projects": 5,
+        "research_project_links": 5,
+        "faculty": 30,
+        "student_development": 191,
+        "sources": 123
+      },
+      "dispositions": {
+        "mapped": 1723,
+        "raw_only": 1065
+      }
+    },
+    {
+      "university_id": "U042",
+      "school": "爱丁堡大学",
+      "fragments": 1526,
+      "new_records": {
+        "source_links": 1012,
+        "programs": 7,
+        "research_outputs": 8,
+        "organizations": 1,
+        "research_projects": 9,
+        "research_project_links": 9,
+        "faculty": 17,
+        "student_development": 202,
+        "sources": 17
+      },
+      "dispositions": {
+        "mapped": 987,
+        "raw_only": 539
+      }
+    },
+    {
+      "university_id": "U043",
+      "school": "牛津大学",
+      "fragments": 2029,
+      "new_records": {
+        "source_links": 2239,
+        "programs": 4,
+        "courses": 4,
+        "program_course": 4,
+        "organizations": 2,
+        "research_outputs": 452,
+        "research_output_links": 509,
+        "faculty": 53,
+        "faculty_organization": 46,
+        "student_development": 355,
+        "sources": 160
+      },
+      "dispositions": {
+        "mapped": 1414,
+        "raw_only": 615
+      }
+    },
+    {
+      "university_id": "U044",
+      "school": "索邦大学",
+      "fragments": 563,
+      "new_records": {
+        "source_links": 450,
+        "programs": 5,
+        "courses": 38,
+        "program_course": 38,
+        "organizations": 3,
+        "faculty": 119,
+        "faculty_organization": 18,
+        "sources": 11
+      },
+      "dispositions": {
+        "mapped": 382,
+        "raw_only": 181
+      }
+    },
+    {
+      "university_id": "U045",
+      "school": "纽约大学",
+      "fragments": 2532,
+      "new_records": {
+        "source_links": 2712,
+        "programs": 8,
+        "courses": 262,
+        "program_course": 262,
+        "objectives": 45,
+        "organizations": 2,
+        "research_outputs": 382,
+        "research_output_links": 371,
+        "faculty": 17,
+        "faculty_organization": 4,
+        "student_development": 342,
+        "sources": 21
+      },
+      "dispositions": {
+        "mapped": 2056,
+        "raw_only": 476
+      }
+    },
+    {
+      "university_id": "U046",
+      "school": "耶鲁大学",
+      "fragments": 660,
+      "new_records": {
+        "source_links": 533,
+        "evaluation": 9,
+        "organizations": 1,
+        "research_outputs": 158,
+        "research_output_links": 158,
+        "faculty": 5,
+        "student_development": 98,
+        "sources": 14
+      },
+      "dispositions": {
+        "mapped": 361,
+        "raw_only": 299
+      }
+    },
+    {
+      "university_id": "U047",
+      "school": "芝加哥大学",
+      "fragments": 705,
+      "new_records": {
+        "source_links": 155,
+        "evaluation": 15,
+        "organizations": 1,
+        "research_outputs": 19,
+        "faculty": 3,
+        "research_output_links": 1,
+        "student_development": 52,
+        "sources": 9
+      },
+      "dispositions": {
+        "mapped": 144,
+        "raw_only": 561
+      }
+    },
+    {
+      "university_id": "U048",
+      "school": "苏黎世联邦理工学院",
+      "fragments": 1338,
+      "new_records": {
+        "source_links": 747,
+        "faculty": 381,
+        "student_development": 115,
+        "sources": 295
+      },
+      "dispositions": {
+        "mapped": 539,
+        "raw_only": 799
+      }
+    },
+    {
+      "university_id": "U049",
+      "school": "范德堡大学",
+      "fragments": 1865,
+      "new_records": {
+        "source_links": 2222,
+        "programs": 8,
+        "courses": 10,
+        "program_course": 10,
+        "organizations": 4,
+        "research_outputs": 498,
+        "research_output_links": 510,
+        "research_projects": 2,
+        "research_project_links": 2,
+        "faculty": 9,
+        "faculty_organization": 9,
+        "student_development": 248,
+        "sources": 171
+      },
+      "dispositions": {
+        "mapped": 1342,
+        "raw_only": 523
+      }
+    },
+    {
+      "university_id": "U050",
+      "school": "阿姆斯特丹大学",
+      "fragments": 561,
+      "new_records": {
+        "source_links": 695,
+        "programs": 5,
+        "courses": 46,
+        "program_course": 46,
+        "practice": 11,
+        "evaluation": 7,
+        "organizations": 3,
+        "faculty": 51,
+        "faculty_organization": 51,
+        "sources": 56
+      },
+      "dispositions": {
+        "mapped": 495,
+        "raw_only": 66
+      }
+    },
+    {
+      "university_id": "U051",
+      "school": "首尔国立大学",
+      "fragments": 1047,
+      "new_records": {
+        "source_links": 771,
+        "programs": 6,
+        "evaluation": 59,
+        "courses": 14,
+        "program_course": 14,
+        "research_outputs": 74,
+        "organizations": 4,
+        "research_output_links": 34,
+        "faculty": 12,
+        "student_development": 56,
+        "sources": 59
+      },
+      "dispositions": {
+        "mapped": 666,
+        "raw_only": 381
+      }
+    },
+    {
+      "university_id": "U052",
+      "school": "香港城市大学",
+      "fragments": 971,
+      "new_records": {
+        "source_links": 1113,
+        "programs": 4,
+        "courses": 187,
+        "program_course": 187,
+        "organizations": 2,
+        "faculty": 26,
+        "faculty_organization": 26,
+        "student_development": 39,
+        "sources": 18
+      },
+      "dispositions": {
+        "mapped": 862,
+        "raw_only": 109
+      }
+    },
+    {
+      "university_id": "U053",
+      "school": "香港大学",
+      "fragments": 891,
+      "new_records": {
+        "source_links": 1059,
+        "programs": 5,
+        "courses": 46,
+        "program_course": 91,
+        "organizations": 6,
+        "research_outputs": 12,
+        "research_output_links": 12,
+        "faculty": 46,
+        "faculty_organization": 47,
+        "student_development": 44,
+        "sources": 62
+      },
+      "dispositions": {
+        "mapped": 826,
+        "raw_only": 65
+      }
+    },
+    {
+      "university_id": "U054",
+      "school": "马里兰大学帕克分校",
+      "fragments": 2432,
+      "new_records": {
+        "source_links": 2438,
+        "programs": 7,
+        "courses": 130,
+        "program_course": 130,
+        "organizations": 4,
+        "faculty": 44,
+        "faculty_organization": 24,
+        "research_outputs": 300,
+        "research_output_links": 300,
+        "student_development": 542,
+        "sources": 31
+      },
+      "dispositions": {
+        "mapped": 1955,
+        "raw_only": 477
+      }
+    },
+    {
+      "university_id": "U055",
+      "school": "麦吉尔大学",
+      "fragments": 2456,
+      "new_records": {
+        "source_links": 2442,
+        "programs": 5,
+        "courses": 188,
+        "program_course": 187,
+        "objectives": 14,
+        "organizations": 8,
+        "research_outputs": 37,
+        "research_output_links": 37,
+        "faculty": 21,
+        "faculty_organization": 22,
+        "student_development": 536,
+        "sources": 183
+      },
+      "dispositions": {
+        "mapped": 2017,
+        "raw_only": 439
+      }
+    },
+    {
+      "university_id": "U056",
+      "school": "麻省理工学院",
+      "fragments": 793,
+      "new_records": {
+        "source_links": 667,
+        "programs": 2,
+        "evaluation": 6,
+        "organizations": 5,
+        "faculty": 51,
+        "faculty_organization": 51,
+        "research_projects": 1,
+        "research_project_links": 1,
+        "research_outputs": 42,
+        "research_output_links": 42,
+        "student_development": 34,
+        "sources": 38
+      },
+      "dispositions": {
+        "mapped": 537,
+        "raw_only": 256
+      }
+    }
+  ]
+}

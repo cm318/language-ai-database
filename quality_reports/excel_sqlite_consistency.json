@@ -1,0 +1,249 @@
+{
+  "verification_time": "2026-11-24T23:49:18.733Z",
+  "sqlite_sha256": "256d577bd7f699e765bc0e9bff42fbc3d6c2627959d620ef3871320dbe390807",
+  "xlsx_sha256": "a3ce651889b7c4abe364a90adefec409158b53b502efc92b86208a50ee4d9e09",
+  "xlsx_bytes": 21531468,
+  "sheet_count": 25,
+  "sheet_names_match": true,
+  "comparison_scope": "21 张数据表＋质量概览；Excel 空字符串与空白单元格统一按空值核对。",
+  "compared_cells": 3768117,
+  "difference_count": 0,
+  "sheet_results": [
+    {
+      "sheet": "universities",
+      "records": 56,
+      "compared_cells": 952,
+      "difference_count": 0,
+      "differences": []
+    },
+    {
+      "sheet": "programs",
+      "records": 272,
+      "compared_cells": 6256,
+      "difference_count": 0,
+      "differences": []
+    },
+    {
+      "sheet": "objectives",
+      "records": 224,
+      "compared_cells": 2464,
+      "difference_count": 0,
+      "differences": []
+    },
+    {
+      "sheet": "courses",
+      "records": 2725,
+      "compared_cells": 43600,
+      "difference_count": 0,
+      "differences": []
+    },
+    {
+      "sheet": "faculty",
+      "records": 2083,
+      "compared_cells": 35411,
+      "difference_count": 0,
+      "differences": []
+    },
+    {
+      "sheet": "practice",
+      "records": 265,
+      "compared_cells": 3975,
+      "difference_count": 0,
+      "differences": []
+    },
+    {
+      "sheet": "evaluation",
+      "records": 410,
+      "compared_cells": 5330,
+      "difference_count": 0,
+      "differences": []
+    },
+    {
+      "sheet": "organizations",
+      "records": 190,
+      "compared_cells": 3040,
+      "difference_count": 0,
+      "differences": []
+    },
+    {
+      "sheet": "sources",
+      "records": 5036,
+      "compared_cells": 80576,
+      "difference_count": 0,
+      "differences": []
+    },
+    {
+      "sheet": "program_course",
+      "records": 3273,
+      "compared_cells": 58914,
+      "difference_count": 0,
+      "differences": []
+    },
+    {
+      "sheet": "faculty_organization",
+      "records": 1088,
+      "compared_cells": 13056,
+      "difference_count": 0,
+      "differences": []
+    },
+    {
+      "sheet": "research_projects",
+      "records": 186,
+      "compared_cells": 3162,
+      "difference_count": 0,
+      "differences": []
+    },
+    {
+      "sheet": "research_project_links",
+      "records": 156,
+      "compared_cells": 1716,
+      "difference_count": 0,
+      "differences": []
+    },
+    {
+      "sheet": "research_outputs",
+      "records": 10091,
+      "compared_cells": 181638,
+      "difference_count": 0,
+      "differences": []
+    },
+    {
+      "sheet": "research_output_links",
+      "records": 8806,
+      "compared_cells": 105672,
+      "difference_count": 0,
+      "differences": []
+    },
+    {
+      "sheet": "student_development",
+      "records": 8766,
+      "compared_cells": 201618,
+      "difference_count": 0,
+      "differences": []
+    },
+    {
+      "sheet": "attachments",
+      "records": 80,
+      "compared_cells": 1760,
+      "difference_count": 0,
+      "differences": []
+    },
+    {
+      "sheet": "raw_fragments",
+      "records": 84046,
+      "compared_cells": 1933058,
+      "difference_count": 0,
+      "differences": []
+    },
+    {
+      "sheet": "source_links",
+      "records": 83321,
+      "compared_cells": 1083173,
+      "difference_count": 0,
+      "differences": []
+    },
+    {
+      "sheet": "review_issues",
+      "records": 38,
+      "compared_cells": 570,
+      "difference_count": 0,
+      "differences": []
+    },
+    {
+      "sheet": "import_batches",
+      "records": 116,
+      "compared_cells": 1392,
+      "difference_count": 0,
+      "differences": []
+    },
+    {
+      "sheet": "质量概览",
+      "records": 56,
+      "compared_cells": 784,
+      "difference_count": 0,
+      "differences": []
+    }
+  ],
+  "table_count_formula_differences": [],
+  "dictionary_fields": 340,
+  "formula_count": 33,
+  "formula_cache_missing_count": 0,
+  "formula_error_count": 0,
+  "missing_cache_cells": [],
+  "formula_errors": [],
+  "intro_metrics": {
+    "已登记高校": 56,
+    "已结构化高校": 56,
+    "培养项目／路径": 272,
+    "课程／研究主题": 2725,
+    "项目—课程关系": 3273,
+    "科研项目": 186,
+    "科研成果": 10091,
+    "学生发展": 8766,
+    "原始附件": 80,
+    "原文片段": 84046,
+    "证据关系": 83321,
+    "待核验事项": 38,
+    "V1 原行差异": 0,
+    "V1 兼容字段差异": 0
+  },
+  "intro_metrics_match": true,
+  "recalc_result": {
+    "status": "success",
+    "method": "libreoffice",
+    "recalculated": true,
+    "delivery_file_recalculated": true,
+    "warnings": []
+  },
+  "gate_result": {
+    "status": "pass",
+    "file": "data/language_ai_cases.xlsx",
+    "method": "independent_streaming_qa_after_libreoffice_recalc",
+    "formula_count": 33,
+    "formula_locations": [
+      "说明!B4",
+      "说明!B5",
+      "说明!B6",
+      "说明!B7",
+      "说明!B8",
+      "说明!B9",
+      "说明!B10",
+      "说明!B11",
+      "说明!B12",
+      "说明!B13",
+      "说明!B14",
+      "说明!B15",
+      "表清单!C2",
+      "表清单!C3",
+      "表清单!C4",
+      "表清单!C5",
+      "表清单!C6",
+      "表清单!C7",
+      "表清单!C8",
+      "表清单!C9",
+      "表清单!C10",
+      "表清单!C11",
+      "表清单!C12",
+      "表清单!C13",
+      "表清单!C14",
+      "表清单!C15",
+      "表清单!C16",
+      "表清单!C17",
+      "表清单!C18",
+      "表清单!C19",
+      "表清单!C20",
+      "表清单!C21",
+      "表清单!C22"
+    ],
+    "formula_cache_missing_count": 0,
+    "missing_cache_cells": [],
+    "error_count": 0,
+    "error_cells": [],
+    "warning_count": 0,
+    "forbidden_function_hits": [],
+    "implicit_array_hits": [],
+    "canonical_gate_status": "fail",
+    "canonical_gate_note": "通用工具将所有以 # 开头的文本视为公式错误，误报原文 Markdown 标题；普通模式全量读取还出现 I/O 错误。原始输出另存 excel_verify_tool_raw.json。本报告用只读流式扫描仅匹配真实 Excel 错误值，并另由 SQLite 逐单元格核对。"
+  },
+  "status": "pass"
+}

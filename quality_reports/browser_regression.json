@@ -1,0 +1,1043 @@
+{
+  "test_time": "2026-11-24T10:05:09.939Z",
+  "url": "http://127.0.0.1:8501",
+  "status": "pass",
+  "app_sha256": "8138ee9a6314fda1083c2f489391248c34f6294c7060b8f9091c04193dfb6157",
+  "database_sha256": "256d577bd7f699e765bc0e9bff42fbc3d6c2627959d620ef3871320dbe390807",
+  "expected_counts": {
+    "已登记高校": 56,
+    "培养项目／路径": 272,
+    "课程／研究主题": 2725,
+    "科研项目": 186,
+    "科研成果": 10091,
+    "证据关系": 83321
+  },
+  "observed_counts": {
+    "已登记高校": 56,
+    "培养项目／路径": 272,
+    "课程／研究主题": 2725,
+    "科研项目": 186,
+    "科研成果": 10091,
+    "证据关系": 83321
+  },
+  "pages_tested": [
+    "数据库首页",
+    "高校详情",
+    "科研与学生发展",
+    "来源与证据",
+    "附件下载"
+  ],
+  "checks": [
+    {
+      "name": "首页六项指标与 SQLite 一致",
+      "passed": true,
+      "detail": "{'已登记高校': 56, '培养项目／路径': 272, '课程／研究主题': 2725, '科研项目': 186, '科研成果': 10091, '证据关系': 83321}"
+    },
+    {
+      "name": "首页无应用异常",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2—4 校比较表已渲染",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "高校中文名检索",
+      "passed": true,
+      "detail": "北京大学返回 1 所"
+    },
+    {
+      "name": "首页按钮可打开高校详情",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "高校详情页签：学校概览",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "高校详情页签：培养目标",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "高校详情页签：课程体系",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "高校详情页签：师资配置",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "高校详情页签：实践环节",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "高校详情页签：评价机制",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "高校详情页签：科研平台与相关机构",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "高校详情页签：科研项目",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "高校详情页签：科研成果",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "高校详情页签：学生发展",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "高校详情页签：来源与附件",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "页面可达：科研与学生发展",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "科研与学生发展类别：科研项目",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "科研与学生发展类别：科研成果",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "科研与学生发展类别：学生发展",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "页面可达：来源与证据",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "来源目录生成",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "业务记录可回查原文证据",
+      "passed": true,
+      "detail": "原文证据：1 条"
+    },
+    {
+      "name": "raw_fragments 原文检索",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "质量状态显示 unprocessed=0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "页面可达：附件下载",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "附件页统计",
+      "passed": true,
+      "detail": "{'附件总数': 80, '允许下载': 80, 'DOCX': 56, 'PDF 总页数': 222}"
+    },
+    {
+      "name": "网页 Excel 下载哈希一致",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "移动端首页、详情和下载页",
+      "passed": true,
+      "detail": "[{'page': '数据库首页', 'no_horizontal_overflow': True, 'exceptions': 0}, {'page': '高校详情', 'no_horizontal_overflow': True, 'exceptions': 0}, {'page': '附件下载', 'no_horizontal_overflow': True, 'exceptions': 0}]"
+    },
+    {
+      "name": "浏览器控制台无错误",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "浏览器页面脚本无异常",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "页面无 HTTP 4xx/5xx",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Streamlit 服务日志无异常",
+      "passed": true,
+      "detail": "[]"
+    }
+  ],
+  "downloads": [
+    {
+      "attachment_id": "ATT_U001_001",
+      "file_name": "巴黎萨克雷大学-2.0.docx",
+      "expected_sha256": "524703972d6ee1177c0741d77219fae8bcf4d2cfe16e8b343f4b02d28dcae661",
+      "suggested_filename": "巴黎萨克雷大学-2.0.docx",
+      "actual_sha256": "524703972d6ee1177c0741d77219fae8bcf4d2cfe16e8b343f4b02d28dcae661",
+      "expected_bytes": 201566,
+      "actual_bytes": 201566,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U002_001",
+      "file_name": "宾夕法尼亚大学.docx",
+      "expected_sha256": "c89ed9c06a227f13f101e1b83268fc8c8b20b84765b67f80e152dcc2054ee4c6",
+      "suggested_filename": "宾夕法尼亚大学.docx",
+      "actual_sha256": "c89ed9c06a227f13f101e1b83268fc8c8b20b84765b67f80e152dcc2054ee4c6",
+      "expected_bytes": 842409,
+      "actual_bytes": 842409,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U003_001",
+      "file_name": "东京大学.docx",
+      "expected_sha256": "24b9435cf67642ec1b61c94639078903fb7b60330d49f2a18f078f68ddc639a1",
+      "suggested_filename": "东京大学.docx",
+      "actual_sha256": "24b9435cf67642ec1b61c94639078903fb7b60330d49f2a18f078f68ddc639a1",
+      "expected_bytes": 390765,
+      "actual_bytes": 390765,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U004_001",
+      "file_name": "南京大学-2.0.docx",
+      "expected_sha256": "06adf92a2fec67192f8040f9b80aec3511c87dc8b7037b312e4cb363c13d9dff",
+      "suggested_filename": "南京大学-2.0.docx",
+      "actual_sha256": "06adf92a2fec67192f8040f9b80aec3511c87dc8b7037b312e4cb363c13d9dff",
+      "expected_bytes": 247251,
+      "actual_bytes": 247251,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U005_001",
+      "file_name": "上海交通大学-2.0.docx",
+      "expected_sha256": "f37d6addb29792966679a408c604aff6a16895a3bda073718efe3b654169f6a9",
+      "suggested_filename": "上海交通大学-2.0.docx",
+      "actual_sha256": "f37d6addb29792966679a408c604aff6a16895a3bda073718efe3b654169f6a9",
+      "expected_bytes": 3811099,
+      "actual_bytes": 3811099,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U006_001",
+      "file_name": "中国人民大学-2.0.docx",
+      "expected_sha256": "f92f36e7b742773a5694ce3087d8d9c57a32806bfb939b403d0b3731acfe9568",
+      "suggested_filename": "中国人民大学-2.0.docx",
+      "actual_sha256": "f92f36e7b742773a5694ce3087d8d9c57a32806bfb939b403d0b3731acfe9568",
+      "expected_bytes": 764262,
+      "actual_bytes": 764262,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U007_001",
+      "file_name": "中国科学院大学-2.0.docx",
+      "expected_sha256": "57c4de8aad78797ffeafff5e7b27fa9c1adc28833a1711274b05b690262dbad9",
+      "suggested_filename": "中国科学院大学-2.0.docx",
+      "actual_sha256": "57c4de8aad78797ffeafff5e7b27fa9c1adc28833a1711274b05b690262dbad9",
+      "expected_bytes": 143354,
+      "actual_bytes": 143354,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U008_001",
+      "file_name": "NLP 博士项目清单 PDFproject-list-natural-language-processing.pdf",
+      "expected_sha256": "19a8d1f792e7c69cc9712b83c433f5b19d68b22da80830f8e922b98af9d04521",
+      "suggested_filename": "NLP 博士项目清单 PDFproject-list-natural-language-processing.pdf",
+      "actual_sha256": "19a8d1f792e7c69cc9712b83c433f5b19d68b22da80830f8e922b98af9d04521",
+      "expected_bytes": 246160,
+      "actual_bytes": 246160,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U008_002",
+      "file_name": "伦敦国王学院.docx",
+      "expected_sha256": "41afd7fd85561280b1626e6dbcf812289d64cb4a24334682457a37d09df14f24",
+      "suggested_filename": "伦敦国王学院.docx",
+      "actual_sha256": "41afd7fd85561280b1626e6dbcf812289d64cb4a24334682457a37d09df14f24",
+      "expected_bytes": 132558,
+      "actual_bytes": 132558,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U009_001",
+      "file_name": "伦敦大学学院.docx",
+      "expected_sha256": "c0db128e80f4f320448bc0375420d44036df22ea0851e8aedb253a29c14a35fd",
+      "suggested_filename": "伦敦大学学院.docx",
+      "actual_sha256": "c0db128e80f4f320448bc0375420d44036df22ea0851e8aedb253a29c14a35fd",
+      "expected_bytes": 7340944,
+      "actual_bytes": 7340944,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U010_001",
+      "file_name": "剑桥大学.docx",
+      "expected_sha256": "5091e1760dba95ab951390dafe8b746bda1584aefa1411cedcc6ac248d533d74",
+      "suggested_filename": "剑桥大学.docx",
+      "actual_sha256": "5091e1760dba95ab951390dafe8b746bda1584aefa1411cedcc6ac248d533d74",
+      "expected_bytes": 7429856,
+      "actual_bytes": 7429856,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U011_001",
+      "file_name": "加州理工学院.docx",
+      "expected_sha256": "b5487451450812125b7f1c0c468643392d14d4bf479b7fc1bfe7600d54cb95d7",
+      "suggested_filename": "加州理工学院.docx",
+      "actual_sha256": "b5487451450812125b7f1c0c468643392d14d4bf479b7fc1bfe7600d54cb95d7",
+      "expected_bytes": 306495,
+      "actual_bytes": 306495,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U012_001",
+      "file_name": "北京外国语大学.docx",
+      "expected_sha256": "8e89a7cf36fb5445f6092ef4ed92a05e95023242624034cf9cd18210793b5803",
+      "suggested_filename": "北京外国语大学.docx",
+      "actual_sha256": "8e89a7cf36fb5445f6092ef4ed92a05e95023242624034cf9cd18210793b5803",
+      "expected_bytes": 934377,
+      "actual_bytes": 934377,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U012_002",
+      "file_name": "本科生专业：计算机科学与技术（语言智能方向）.pdf",
+      "expected_sha256": "59aa6791199bea9940730f2a4320a300dd7bdcc3ceb00d495b6652657848e65d",
+      "suggested_filename": "本科生专业：计算机科学与技术（语言智能方向）.pdf",
+      "actual_sha256": "59aa6791199bea9940730f2a4320a300dd7bdcc3ceb00d495b6652657848e65d",
+      "expected_bytes": 830914,
+      "actual_bytes": 830914,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U013_001",
+      "file_name": "北京大学-2.0.docx",
+      "expected_sha256": "07ef0df5ae9da85010801df2f6063cdbcd123bf9de0c6ecf853cc48cfd674b2e",
+      "suggested_filename": "北京大学-2.0.docx",
+      "actual_sha256": "07ef0df5ae9da85010801df2f6063cdbcd123bf9de0c6ecf853cc48cfd674b2e",
+      "expected_bytes": 16482892,
+      "actual_bytes": 16482892,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U013_E01",
+      "file_name": "北京大学-2025-计算机科学与技术专业（图灵班）培养方案__oleObject1.pdf",
+      "expected_sha256": "fccb39d91a249fb1695837fbed5121a45efb127b05d376920ce28b11a1fa03b3",
+      "suggested_filename": "北京大学-2025-计算机科学与技术专业（图灵班）培养方案__oleObject1.pdf",
+      "actual_sha256": "fccb39d91a249fb1695837fbed5121a45efb127b05d376920ce28b11a1fa03b3",
+      "expected_bytes": 914961,
+      "actual_bytes": 914961,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U013_E02",
+      "file_name": "北京大学-2025-智能科学与技术专业培养方案__oleObject2.pdf",
+      "expected_sha256": "02bfbaaa4c449b0c1285a357633cf33b62a82eecb1fe2b1e2dd5c243f9d857d0",
+      "suggested_filename": "北京大学-2025-智能科学与技术专业培养方案__oleObject2.pdf",
+      "actual_sha256": "02bfbaaa4c449b0c1285a357633cf33b62a82eecb1fe2b1e2dd5c243f9d857d0",
+      "expected_bytes": 1288247,
+      "actual_bytes": 1288247,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U013_E03",
+      "file_name": "北京大学-智能科学与技术专业（智班）培养方案__oleObject3.pdf",
+      "expected_sha256": "0eb18443c9cea27f480343d083f6b5b6ff64f41cacc6bc2a13ae7d61ef0b7f7f",
+      "suggested_filename": "北京大学-智能科学与技术专业（智班）培养方案__oleObject3.pdf",
+      "actual_sha256": "0eb18443c9cea27f480343d083f6b5b6ff64f41cacc6bc2a13ae7d61ef0b7f7f",
+      "expected_bytes": 1264010,
+      "actual_bytes": 1264010,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U013_E04",
+      "file_name": "北京大学-2025-信息与计算科学专业（计算机方向）培养方案__oleObject4.pdf",
+      "expected_sha256": "c8a6d96388a8aa40b4b6c759be39f2a2aca8ac606a272f68014c224e6acb3c81",
+      "suggested_filename": "北京大学-2025-信息与计算科学专业（计算机方向）培养方案__oleObject4.pdf",
+      "actual_sha256": "c8a6d96388a8aa40b4b6c759be39f2a2aca8ac606a272f68014c224e6acb3c81",
+      "expected_bytes": 1099343,
+      "actual_bytes": 1099343,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U013_E05",
+      "file_name": "北京大学-2025-信息与计算科学专业（图灵班）培养方案__oleObject5.pdf",
+      "expected_sha256": "e2d7cc6f3a86e85ce4b9f608424443e1806c83db4b6f840285efe7364f23ad36",
+      "suggested_filename": "北京大学-2025-信息与计算科学专业（图灵班）培养方案__oleObject5.pdf",
+      "actual_sha256": "e2d7cc6f3a86e85ce4b9f608424443e1806c83db4b6f840285efe7364f23ad36",
+      "expected_bytes": 1385171,
+      "actual_bytes": 1385171,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U013_E06",
+      "file_name": "北京大学-2025-信息与计算科学专业（智能方向）培养方案__oleObject6.pdf",
+      "expected_sha256": "85e3db4f18def8802e2e247035d7fd78dffa2d630ba5fc234619eb6a5f1769b2",
+      "suggested_filename": "北京大学-2025-信息与计算科学专业（智能方向）培养方案__oleObject6.pdf",
+      "actual_sha256": "85e3db4f18def8802e2e247035d7fd78dffa2d630ba5fc234619eb6a5f1769b2",
+      "expected_bytes": 1019717,
+      "actual_bytes": 1019717,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U013_E07",
+      "file_name": "北京大学-2025-信息与计算科学专业（智班）培养方案__oleObject7.pdf",
+      "expected_sha256": "22d77bf3f5a3d4243ef753d2e4c6f254a9b4fd8f1f9dcf336c33beca0a4ad447",
+      "suggested_filename": "北京大学-2025-信息与计算科学专业（智班）培养方案__oleObject7.pdf",
+      "actual_sha256": "22d77bf3f5a3d4243ef753d2e4c6f254a9b4fd8f1f9dcf336c33beca0a4ad447",
+      "expected_bytes": 1307162,
+      "actual_bytes": 1307162,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U014_001",
+      "file_name": "华盛顿大学.docx",
+      "expected_sha256": "b3dd83a9d80265dae975e3eb4b01b4827285e14e796a3a83c71c7b27d9a6dba9",
+      "suggested_filename": "华盛顿大学.docx",
+      "actual_sha256": "b3dd83a9d80265dae975e3eb4b01b4827285e14e796a3a83c71c7b27d9a6dba9",
+      "expected_bytes": 186410,
+      "actual_bytes": 186410,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U015_001",
+      "file_name": "南洋理工大学-2.0.docx",
+      "expected_sha256": "f15a5a9707397991a58e903024ef15d897bfb69d36e7c8b8757c702c443687af",
+      "suggested_filename": "南洋理工大学-2.0.docx",
+      "actual_sha256": "f15a5a9707397991a58e903024ef15d897bfb69d36e7c8b8757c702c443687af",
+      "expected_bytes": 507293,
+      "actual_bytes": 507293,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U016_001",
+      "file_name": "卡内基梅隆大学.docx",
+      "expected_sha256": "db83dd4d46662446e2a88d9eb32f3a02bca158428c6e20132b81ac846d5c9303",
+      "suggested_filename": "卡内基梅隆大学.docx",
+      "actual_sha256": "db83dd4d46662446e2a88d9eb32f3a02bca158428c6e20132b81ac846d5c9303",
+      "expected_bytes": 422470,
+      "actual_bytes": 422470,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U016_002",
+      "file_name": "智能信息系统理学硕士-handbook-2025-2026-final.pdf",
+      "expected_sha256": "8091aa98afee7e943e53b909ec27b14983b9414ee396e49c1857c74f8f9e50b7",
+      "suggested_filename": "智能信息系统理学硕士-handbook-2025-2026-final.pdf",
+      "actual_sha256": "8091aa98afee7e943e53b909ec27b14983b9414ee396e49c1857c74f8f9e50b7",
+      "expected_bytes": 278874,
+      "actual_bytes": 278874,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U016_003",
+      "file_name": "语言与信息技术博士_phd_2025_2026.pdf",
+      "expected_sha256": "f994a105844982647dc99ceacf946ed8a66850b3ada21315ec7df2011469106a",
+      "suggested_filename": "语言与信息技术博士_phd_2025_2026.pdf",
+      "actual_sha256": "f994a105844982647dc99ceacf946ed8a66850b3ada21315ec7df2011469106a",
+      "expected_bytes": 343701,
+      "actual_bytes": 343701,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U016_004",
+      "file_name": "语言技术理学硕士-handbook-ay-25-26-final-ref.docx.pdf",
+      "expected_sha256": "6b4c6cc79b0ea7fbb042c09dbcacf8bf68e809e3325fa599fc138fb64885fbff",
+      "suggested_filename": "语言技术理学硕士-handbook-ay-25-26-final-ref.docx.pdf",
+      "actual_sha256": "6b4c6cc79b0ea7fbb042c09dbcacf8bf68e809e3325fa599fc138fb64885fbff",
+      "expected_bytes": 520271,
+      "actual_bytes": 520271,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U017_001",
+      "file_name": "Linguistics Graduate Student Handbook.pdf",
+      "expected_sha256": "0a4057c5b36b365c62243ca79fae63b1e32cee0486a61dcdc904c4bcec9137a8",
+      "suggested_filename": "Linguistics Graduate Student Handbook.pdf",
+      "actual_sha256": "0a4057c5b36b365c62243ca79fae63b1e32cee0486a61dcdc904c4bcec9137a8",
+      "expected_bytes": 469791,
+      "actual_bytes": 469791,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U017_002",
+      "file_name": "哈佛大学.docx",
+      "expected_sha256": "867d48e950cb9e533994ebcdb400f45a30f7084a132fbfa75571e48604f8ad56",
+      "suggested_filename": "哈佛大学.docx",
+      "actual_sha256": "867d48e950cb9e533994ebcdb400f45a30f7084a132fbfa75571e48604f8ad56",
+      "expected_bytes": 7317655,
+      "actual_bytes": 7317655,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U018_001",
+      "file_name": "哈尔滨工业大学-2.0.docx",
+      "expected_sha256": "3be1a5eed838819eab38cb1f6773462e7fdef2c7c6c220b0f36c56614ecdc1a8",
+      "suggested_filename": "哈尔滨工业大学-2.0.docx",
+      "actual_sha256": "3be1a5eed838819eab38cb1f6773462e7fdef2c7c6c220b0f36c56614ecdc1a8",
+      "expected_bytes": 564470,
+      "actual_bytes": 564470,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U019_001",
+      "file_name": "哥伦比亚大学.docx",
+      "expected_sha256": "de89751fa762d5041886b55d1fcb4e7ae3d95de39cb8b60014e4ee3013710a2b",
+      "suggested_filename": "哥伦比亚大学.docx",
+      "actual_sha256": "de89751fa762d5041886b55d1fcb4e7ae3d95de39cb8b60014e4ee3013710a2b",
+      "expected_bytes": 382553,
+      "actual_bytes": 382553,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U019_002",
+      "file_name": "哥伦比亚大学信息科学本科专业课程设置.pdf",
+      "expected_sha256": "7860ebf5469c446a934c51cf4e610eacc7aa4f1db1bbcdc04ea0723730d0d508",
+      "suggested_filename": "哥伦比亚大学信息科学本科专业课程设置.pdf",
+      "actual_sha256": "7860ebf5469c446a934c51cf4e610eacc7aa4f1db1bbcdc04ea0723730d0d508",
+      "expected_bytes": 127697,
+      "actual_bytes": 127697,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U019_003",
+      "file_name": "哥伦比亚大学数据科学本科专业课程设置.pdf",
+      "expected_sha256": "93b32c55dba3b8c53ae7f3b9f26fcad75481fddfece2da99c5c9384b5b5458ee",
+      "suggested_filename": "哥伦比亚大学数据科学本科专业课程设置.pdf",
+      "actual_sha256": "93b32c55dba3b8c53ae7f3b9f26fcad75481fddfece2da99c5c9384b5b5458ee",
+      "expected_bytes": 30319,
+      "actual_bytes": 30319,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U019_004",
+      "file_name": "哥伦比亚大学计算机科学本科专业课程安排.pdf",
+      "expected_sha256": "79725a4cab7759a0d37affb8e8298e005ce9ce7e17f472e65df0570b3f0b7c87",
+      "suggested_filename": "哥伦比亚大学计算机科学本科专业课程安排.pdf",
+      "actual_sha256": "79725a4cab7759a0d37affb8e8298e005ce9ce7e17f472e65df0570b3f0b7c87",
+      "expected_bytes": 140662,
+      "actual_bytes": 140662,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U020_001",
+      "file_name": "哥本哈根大学-2.0.docx",
+      "expected_sha256": "41b1ed4a763cdfce35d073609bc9e257d7a09ed1a042f15db8743f6a780b33bb",
+      "suggested_filename": "哥本哈根大学-2.0.docx",
+      "actual_sha256": "41b1ed4a763cdfce35d073609bc9e257d7a09ed1a042f15db8743f6a780b33bb",
+      "expected_bytes": 276994,
+      "actual_bytes": 276994,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U021_001",
+      "file_name": "墨尔本大学-2.0.docx",
+      "expected_sha256": "09cf48e6139be776112085afe1b629a6ba62b03979c63e19403d6499ee3ae379",
+      "suggested_filename": "墨尔本大学-2.0.docx",
+      "actual_sha256": "09cf48e6139be776112085afe1b629a6ba62b03979c63e19403d6499ee3ae379",
+      "expected_bytes": 118375,
+      "actual_bytes": 118375,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U022_001",
+      "file_name": "复旦大学.docx",
+      "expected_sha256": "353404481988d9df4c943d9adae5045566c3578607218b8c81b84b5f604022e9",
+      "suggested_filename": "复旦大学.docx",
+      "actual_sha256": "353404481988d9df4c943d9adae5045566c3578607218b8c81b84b5f604022e9",
+      "expected_bytes": 689123,
+      "actual_bytes": 689123,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U023_001",
+      "file_name": "多伦多大学-2.0.docx",
+      "expected_sha256": "31b05fbdad88e1258ca9d3eb9a8a69303a3dfe391a54c2003fc39c071c18f008",
+      "suggested_filename": "多伦多大学-2.0.docx",
+      "actual_sha256": "31b05fbdad88e1258ca9d3eb9a8a69303a3dfe391a54c2003fc39c071c18f008",
+      "expected_bytes": 250223,
+      "actual_bytes": 250223,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U024_001",
+      "file_name": "密歇根大学.docx",
+      "expected_sha256": "20d34e6e837e978da3a92ecef955db309b20dcf38ef849968136d715abe16ccf",
+      "suggested_filename": "密歇根大学.docx",
+      "actual_sha256": "20d34e6e837e978da3a92ecef955db309b20dcf38ef849968136d715abe16ccf",
+      "expected_bytes": 274003,
+      "actual_bytes": 274003,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U025_001",
+      "file_name": "G700-MEng-Computing-(AIML)课程大纲-2025-26.pdf",
+      "expected_sha256": "bd95289b0f83f8fd3ec244679a5d6e3cdef97c3a910e5c7b36b902619f28bb1d",
+      "suggested_filename": "G700-MEng-Computing-(AIML)课程大纲-2025-26.pdf",
+      "actual_sha256": "bd95289b0f83f8fd3ec244679a5d6e3cdef97c3a910e5c7b36b902619f28bb1d",
+      "expected_bytes": 273991,
+      "actual_bytes": 273991,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U025_002",
+      "file_name": "人工智能硕士课程大纲G5T1-MSc-Artificial-Intelligence-2025-26.pdf",
+      "expected_sha256": "d921edb76fd1c110afe249bbe43f78e987878a9930fbfdbbdf39a8554d66f744",
+      "suggested_filename": "人工智能硕士课程大纲G5T1-MSc-Artificial-Intelligence-2025-26.pdf",
+      "actual_sha256": "d921edb76fd1c110afe249bbe43f78e987878a9930fbfdbbdf39a8554d66f744",
+      "expected_bytes": 202824,
+      "actual_bytes": 202824,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U025_003",
+      "file_name": "帝国理工学院.docx",
+      "expected_sha256": "f5815171a9e5da0f44de09858f34df9058ce610703099bbfebc1035c236e1f33",
+      "suggested_filename": "帝国理工学院.docx",
+      "actual_sha256": "f5815171a9e5da0f44de09858f34df9058ce610703099bbfebc1035c236e1f33",
+      "expected_bytes": 1224321,
+      "actual_bytes": 1224321,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U026_001",
+      "file_name": "康奈尔大学.docx",
+      "expected_sha256": "a2644fdcf8e2e33c1a012814a71689ccb3b24e4bfaac0fef09d53b5178537223",
+      "suggested_filename": "康奈尔大学.docx",
+      "actual_sha256": "a2644fdcf8e2e33c1a012814a71689ccb3b24e4bfaac0fef09d53b5178537223",
+      "expected_bytes": 242175,
+      "actual_bytes": 242175,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U027_001",
+      "file_name": "悉尼大学-2.0.docx",
+      "expected_sha256": "9979f2417d8fc46c894ba401405948f3690abf553db27b918267e7a233c95b6c",
+      "suggested_filename": "悉尼大学-2.0.docx",
+      "actual_sha256": "9979f2417d8fc46c894ba401405948f3690abf553db27b918267e7a233c95b6c",
+      "expected_bytes": 158967,
+      "actual_bytes": 158967,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U028_001",
+      "file_name": "慕尼黑大学-2.0.docx",
+      "expected_sha256": "4490bdf4954f1cb6804d0f1325d836692bf7ec6ab439bb20ef923e437de72e14",
+      "suggested_filename": "慕尼黑大学-2.0.docx",
+      "actual_sha256": "4490bdf4954f1cb6804d0f1325d836692bf7ec6ab439bb20ef923e437de72e14",
+      "expected_bytes": 382296,
+      "actual_bytes": 382296,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U028_E01",
+      "file_name": "课程设置__oleObject1.pdf",
+      "expected_sha256": "229af80f44421c07cc5f8ae4401e0463d1c91a726d2686c17bdd7ad1c251d810",
+      "suggested_filename": "课程设置__oleObject1.pdf",
+      "actual_sha256": "229af80f44421c07cc5f8ae4401e0463d1c91a726d2686c17bdd7ad1c251d810",
+      "expected_bytes": 204067,
+      "actual_bytes": 204067,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U029_001",
+      "file_name": "慕尼黑工业大学-2.0.docx",
+      "expected_sha256": "09cd5d155490c8e32b02ca9ad1b9689f2695ee391a3c3eb6d118a8c5352e7b5a",
+      "suggested_filename": "慕尼黑工业大学-2.0.docx",
+      "actual_sha256": "09cd5d155490c8e32b02ca9ad1b9689f2695ee391a3c3eb6d118a8c5352e7b5a",
+      "expected_bytes": 665793,
+      "actual_bytes": 665793,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U030_001",
+      "file_name": "斯坦福大学.docx",
+      "expected_sha256": "08e2a4a59b8680f948b4b50e18e76f2d812476d51a9278a2a42eaf3884f56aeb",
+      "suggested_filename": "斯坦福大学.docx",
+      "actual_sha256": "08e2a4a59b8680f948b4b50e18e76f2d812476d51a9278a2a42eaf3884f56aeb",
+      "expected_bytes": 7285830,
+      "actual_bytes": 7285830,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U030_002",
+      "file_name": "语言学硕士.pdf",
+      "expected_sha256": "391b77312da9d6c5c1856dca342be2f7959f78193cbb74c42e8c5e87754df588",
+      "suggested_filename": "语言学硕士.pdf",
+      "actual_sha256": "391b77312da9d6c5c1856dca342be2f7959f78193cbb74c42e8c5e87754df588",
+      "expected_bytes": 47814,
+      "actual_bytes": 47814,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U031_001",
+      "file_name": "新加坡国立大学-2.0.docx",
+      "expected_sha256": "f091db49d0c809648d1ca4c80437bdb258e58609e176e0d098019deaa2a2d736",
+      "suggested_filename": "新加坡国立大学-2.0.docx",
+      "actual_sha256": "f091db49d0c809648d1ca4c80437bdb258e58609e176e0d098019deaa2a2d736",
+      "expected_bytes": 149145,
+      "actual_bytes": 149145,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U032_001",
+      "file_name": "新南威尔士大学-2.0.docx",
+      "expected_sha256": "464a31d372912a8420370426180a990ff38f01d005861f13e2830018fe99182a",
+      "suggested_filename": "新南威尔士大学-2.0.docx",
+      "actual_sha256": "464a31d372912a8420370426180a990ff38f01d005861f13e2830018fe99182a",
+      "expected_bytes": 348500,
+      "actual_bytes": 348500,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U033_001",
+      "file_name": "昆士兰大学-2.0.docx",
+      "expected_sha256": "15df8bb96ee2ddf4957f593ffce1f90c8888d6561b822b54f4f6331f0fcad298",
+      "suggested_filename": "昆士兰大学-2.0.docx",
+      "actual_sha256": "15df8bb96ee2ddf4957f593ffce1f90c8888d6561b822b54f4f6331f0fcad298",
+      "expected_bytes": 347944,
+      "actual_bytes": 347944,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U034_001",
+      "file_name": "普林斯顿大学.docx",
+      "expected_sha256": "78363d8d99207e4cadda2f78f4c3f81d4d9e7e9836066b75a5941c6d6ecf5167",
+      "suggested_filename": "普林斯顿大学.docx",
+      "actual_sha256": "78363d8d99207e4cadda2f78f4c3f81d4d9e7e9836066b75a5941c6d6ecf5167",
+      "expected_bytes": 124835,
+      "actual_bytes": 124835,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U035_001",
+      "file_name": "曼彻斯特大学.docx",
+      "expected_sha256": "5f949dfa0cba16811f0e7f36fa5053ac34c8dede9a5720b183ede390556c5407",
+      "suggested_filename": "曼彻斯特大学.docx",
+      "actual_sha256": "5f949dfa0cba16811f0e7f36fa5053ac34c8dede9a5720b183ede390556c5407",
+      "expected_bytes": 450092,
+      "actual_bytes": 450092,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U036_001",
+      "file_name": "杜克大学.docx",
+      "expected_sha256": "5c444fe6f1aee58a822e7dd3f8bf4c042d408024148a588b08ff9d9a657afe99",
+      "suggested_filename": "杜克大学.docx",
+      "actual_sha256": "5c444fe6f1aee58a822e7dd3f8bf4c042d408024148a588b08ff9d9a657afe99",
+      "expected_bytes": 261013,
+      "actual_bytes": 261013,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U037_001",
+      "file_name": "格罗宁根大学-2.0.docx",
+      "expected_sha256": "8cfc1023242472441ef0a534f7f5ba67c42b917f7896e541fd763dc791c76097",
+      "suggested_filename": "格罗宁根大学-2.0.docx",
+      "actual_sha256": "8cfc1023242472441ef0a534f7f5ba67c42b917f7896e541fd763dc791c76097",
+      "expected_bytes": 237557,
+      "actual_bytes": 237557,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U038_001",
+      "file_name": "洛桑联邦理工学院-2.0.docx",
+      "expected_sha256": "9b14d86f1be95e2bcee1f77295eba05000ca137618a33c1249cf8ae213cb5729",
+      "suggested_filename": "洛桑联邦理工学院-2.0.docx",
+      "actual_sha256": "9b14d86f1be95e2bcee1f77295eba05000ca137618a33c1249cf8ae213cb5729",
+      "expected_bytes": 204381,
+      "actual_bytes": 204381,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U039_001",
+      "file_name": "“文科+X”多学科交叉人才培养卓越中心.pdf",
+      "expected_sha256": "ffb058cbf547b3ffff72a18f80e9871381ad113be308af812113475decfbaefc",
+      "suggested_filename": "“文科+X”多学科交叉人才培养卓越中心.pdf",
+      "actual_sha256": "ffb058cbf547b3ffff72a18f80e9871381ad113be308af812113475decfbaefc",
+      "expected_bytes": 587945,
+      "actual_bytes": 587945,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U039_002",
+      "file_name": "浙江大学.docx",
+      "expected_sha256": "208b1290599c01a041c03e9bccd8db5fa085dae9fa36c9a820359827d4fb88fc",
+      "suggested_filename": "浙江大学.docx",
+      "actual_sha256": "208b1290599c01a041c03e9bccd8db5fa085dae9fa36c9a820359827d4fb88fc",
+      "expected_bytes": 304996,
+      "actual_bytes": 304996,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U040_001",
+      "file_name": "海德堡大学-2.0.docx",
+      "expected_sha256": "6763e98b18afe53208d7384d2183d1df2de09af18374fd5f64ca602e16a7c6ba",
+      "suggested_filename": "海德堡大学-2.0.docx",
+      "actual_sha256": "6763e98b18afe53208d7384d2183d1df2de09af18374fd5f64ca602e16a7c6ba",
+      "expected_bytes": 165146,
+      "actual_bytes": 165146,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U041_001",
+      "file_name": "清华大学.docx",
+      "expected_sha256": "55bc5aa3951736211183d60e0f04224466890a012b70ad31d59b18bb04708f07",
+      "suggested_filename": "清华大学.docx",
+      "actual_sha256": "55bc5aa3951736211183d60e0f04224466890a012b70ad31d59b18bb04708f07",
+      "expected_bytes": 10934489,
+      "actual_bytes": 10934489,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U042_001",
+      "file_name": "爱丁堡大学.docx",
+      "expected_sha256": "38ae2eafcd2f20dc1213fb36343358242057bf14f6fe1e04c5e7337ddb899518",
+      "suggested_filename": "爱丁堡大学.docx",
+      "actual_sha256": "38ae2eafcd2f20dc1213fb36343358242057bf14f6fe1e04c5e7337ddb899518",
+      "expected_bytes": 148043,
+      "actual_bytes": 148043,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U043_001",
+      "file_name": "牛津大学.docx",
+      "expected_sha256": "49411999c8c9d14d9b0b553f10d9563d4d590f1055a9a5fd7606a78d4f88ac2d",
+      "suggested_filename": "牛津大学.docx",
+      "actual_sha256": "49411999c8c9d14d9b0b553f10d9563d4d590f1055a9a5fd7606a78d4f88ac2d",
+      "expected_bytes": 255254,
+      "actual_bytes": 255254,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U044_001",
+      "file_name": "索邦大学-2.0.docx",
+      "expected_sha256": "52b72a053c8b92cc5390296ef81d67c324b109da6deea465fe908a1557aeb31c",
+      "suggested_filename": "索邦大学-2.0.docx",
+      "actual_sha256": "52b72a053c8b92cc5390296ef81d67c324b109da6deea465fe908a1557aeb31c",
+      "expected_bytes": 98364,
+      "actual_bytes": 98364,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U045_001",
+      "file_name": "纽约大学.docx",
+      "expected_sha256": "b81be815a6439673d8d7314fddba4538c48cf8683b0c4b17a8509c771ea6ff11",
+      "suggested_filename": "纽约大学.docx",
+      "actual_sha256": "b81be815a6439673d8d7314fddba4538c48cf8683b0c4b17a8509c771ea6ff11",
+      "expected_bytes": 7478197,
+      "actual_bytes": 7478197,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U046_001",
+      "file_name": "耶鲁大学.docx",
+      "expected_sha256": "a6c2585acbd4c9478b9cd2142d444358193d7bba160565b9fe533220c028d5b8",
+      "suggested_filename": "耶鲁大学.docx",
+      "actual_sha256": "a6c2585acbd4c9478b9cd2142d444358193d7bba160565b9fe533220c028d5b8",
+      "expected_bytes": 221330,
+      "actual_bytes": 221330,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U047_001",
+      "file_name": "芝加哥大学.docx",
+      "expected_sha256": "383b4667a1b0e3857e63d0ed79563e523554813b37b20c1fb3bfb60ad2ad5231",
+      "suggested_filename": "芝加哥大学.docx",
+      "actual_sha256": "383b4667a1b0e3857e63d0ed79563e523554813b37b20c1fb3bfb60ad2ad5231",
+      "expected_bytes": 151765,
+      "actual_bytes": 151765,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U048_001",
+      "file_name": "苏黎世联邦理工学院-2.0.docx",
+      "expected_sha256": "01aaa2666324442f93349d86c9fc6f142dccedbbceb8092c8b3e1c3b1639f44d",
+      "suggested_filename": "苏黎世联邦理工学院-2.0.docx",
+      "actual_sha256": "01aaa2666324442f93349d86c9fc6f142dccedbbceb8092c8b3e1c3b1639f44d",
+      "expected_bytes": 880246,
+      "actual_bytes": 880246,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U049_001",
+      "file_name": "范德堡大学.docx",
+      "expected_sha256": "0d6d0bde0f4cb0a5ba4a414404a8afaa9f3fcdc2545210e9069320869f7fefd9",
+      "suggested_filename": "范德堡大学.docx",
+      "actual_sha256": "0d6d0bde0f4cb0a5ba4a414404a8afaa9f3fcdc2545210e9069320869f7fefd9",
+      "expected_bytes": 1050920,
+      "actual_bytes": 1050920,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U050_001",
+      "file_name": "阿姆斯特丹大学-2.0.docx",
+      "expected_sha256": "05dd77d7814182c6fcf6a50c9c4cfc8428931df8d7e8ea957fb927f348d80a0b",
+      "suggested_filename": "阿姆斯特丹大学-2.0.docx",
+      "actual_sha256": "05dd77d7814182c6fcf6a50c9c4cfc8428931df8d7e8ea957fb927f348d80a0b",
+      "expected_bytes": 99546,
+      "actual_bytes": 99546,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U051_001",
+      "file_name": "首尔国立大学-2.0.docx",
+      "expected_sha256": "b77d40c8f4ae5b89ca71e97f0ca56f913e29990f4d573cdf126be807ca4197d9",
+      "suggested_filename": "首尔国立大学-2.0.docx",
+      "actual_sha256": "b77d40c8f4ae5b89ca71e97f0ca56f913e29990f4d573cdf126be807ca4197d9",
+      "expected_bytes": 155880,
+      "actual_bytes": 155880,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U052_001",
+      "file_name": "香港城市大学-2.0.docx",
+      "expected_sha256": "c07ba3fb95e26fe65a966d52c1744cc8f8226e20db583c1744c80a3567e972de",
+      "suggested_filename": "香港城市大学-2.0.docx",
+      "actual_sha256": "c07ba3fb95e26fe65a966d52c1744cc8f8226e20db583c1744c80a3567e972de",
+      "expected_bytes": 233589,
+      "actual_bytes": 233589,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U053_001",
+      "file_name": "香港大学-2.0.docx",
+      "expected_sha256": "8ab6f60ca3c906ca9eee1af9e57a96ae09599d588d99ca9051468e5553d9e0ef",
+      "suggested_filename": "香港大学-2.0.docx",
+      "actual_sha256": "8ab6f60ca3c906ca9eee1af9e57a96ae09599d588d99ca9051468e5553d9e0ef",
+      "expected_bytes": 124908,
+      "actual_bytes": 124908,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U054_001",
+      "file_name": "四年毕业计划：信息科学学士.pdf",
+      "expected_sha256": "b4edc66c3d204b3e4acc97340308f0d8f42cf84d506b09b7464638dbf9e46e05",
+      "suggested_filename": "四年毕业计划：信息科学学士.pdf",
+      "actual_sha256": "b4edc66c3d204b3e4acc97340308f0d8f42cf84d506b09b7464638dbf9e46e05",
+      "expected_bytes": 638099,
+      "actual_bytes": 638099,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U054_002",
+      "file_name": "四年毕业计划：技术与信息设计学士.pdf",
+      "expected_sha256": "6e9a87389441ddc0e439f2b391612909242e8b681e99c3012a7f54a0a148061d",
+      "suggested_filename": "四年毕业计划：技术与信息设计学士.pdf",
+      "actual_sha256": "6e9a87389441ddc0e439f2b391612909242e8b681e99c3012a7f54a0a148061d",
+      "expected_bytes": 625914,
+      "actual_bytes": 625914,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U054_003",
+      "file_name": "四年毕业计划：社会数据科学学士.pdf",
+      "expected_sha256": "85637ae49cf3ccb6843620f762b00f734f7af573bc577189e05e410c5b6d008f",
+      "suggested_filename": "四年毕业计划：社会数据科学学士.pdf",
+      "actual_sha256": "85637ae49cf3ccb6843620f762b00f734f7af573bc577189e05e410c5b6d008f",
+      "expected_bytes": 665113,
+      "actual_bytes": 665113,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U054_004",
+      "file_name": "马里兰大学帕克分校.docx",
+      "expected_sha256": "289ea474eafd38b9008e537b11b78045ff0f817c21597ba03a0c91dfacc60f02",
+      "suggested_filename": "马里兰大学帕克分校.docx",
+      "actual_sha256": "289ea474eafd38b9008e537b11b78045ff0f817c21597ba03a0c91dfacc60f02",
+      "expected_bytes": 1811040,
+      "actual_bytes": 1811040,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U055_001",
+      "file_name": "麦吉尔大学-2.0.docx",
+      "expected_sha256": "df85bc40d2884b2b3cdf34a7dc1230158000eb67a2e71c9fc6c1ad7936d64771",
+      "suggested_filename": "麦吉尔大学-2.0.docx",
+      "actual_sha256": "df85bc40d2884b2b3cdf34a7dc1230158000eb67a2e71c9fc6c1ad7936d64771",
+      "expected_bytes": 494223,
+      "actual_bytes": 494223,
+      "passed": true
+    },
+    {
+      "attachment_id": "ATT_U056_001",
+      "file_name": "麻省理工学院.docx",
+      "expected_sha256": "acf10ecabe424ea8f5d60d3ad2fa72f1a92dea87c3a1b999fb172892ef6ad746",
+      "suggested_filename": "麻省理工学院.docx",
+      "actual_sha256": "acf10ecabe424ea8f5d60d3ad2fa72f1a92dea87c3a1b999fb172892ef6ad746",
+      "expected_bytes": 1657475,
+      "actual_bytes": 1657475,
+      "passed": true
+    }
+  ],
+  "console_errors": [],
+  "page_errors": [],
+  "http_errors": [],
+  "server_errors": [],
+  "mobile": {
+    "viewport": "390x844",
+    "checks": [
+      {
+        "page": "数据库首页",
+        "no_horizontal_overflow": true,
+        "exceptions": 0
+      },
+      {
+        "page": "高校详情",
+        "no_horizontal_overflow": true,
+        "exceptions": 0
+      },
+      {
+        "page": "附件下载",
+        "no_horizontal_overflow": true,
+        "exceptions": 0
+      }
+    ],
+    "passed": true
+  },
+  "home_performance": {
+    "request_count": 148,
+    "encoded_body_bytes": 5633027
+  },
+  "excel_download": {
+    "file_name": "language_ai_cases.xlsx",
+    "actual_sha256": "a3ce651889b7c4abe364a90adefec409158b53b502efc92b86208a50ee4d9e09",
+    "expected_sha256": "a3ce651889b7c4abe364a90adefec409158b53b502efc92b86208a50ee4d9e09",
+    "passed": true
+  },
+  "completion_time": "2026-11-24T10:06:47.791Z",
+  "verification_time": "2026-11-24T23:49:19.154Z",
+  "verified_app_sha256": "8138ee9a6314fda1083c2f489391248c34f6294c7060b8f9091c04193dfb6157",
+  "verified_database_sha256": "256d577bd7f699e765bc0e9bff42fbc3d6c2627959d620ef3871320dbe390807",
+  "check_count": 33,
+  "passed_count": 33,
+  "failed_count": 0,
+  "download_count": 80,
+  "observed_counts_match": true
+}
